@@ -1,4 +1,4 @@
-# 🧠 DragonAI–BERTMap Ontology Alignment Proposal
+# DragonMAP
 
 **Contributors:** Gabriel Nixon · Harshit Soni · Aditya Desai  
 
