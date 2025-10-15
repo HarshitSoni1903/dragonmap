@@ -45,3 +45,22 @@ The integrated approach aims to improve **alignment quality, efficiency, and int
 ---
 
 ## 🔁 Pipeline Flowchart
+
+
+1. DragonAI (RAG)
+   → Vector DB retrieval
+   → LLM-based ontology completion
+
+2. Candidate Generation
+   → Lexical & embedding top-K
+   → Pre-cleaning via type filtering
+
+3. Matching
+   → BERTMap probability scoring
+
+4. Thresholding
+   → Keep top-N / above-threshold pairs
+
+5. Validation
+   → LLM contextual checks
+   → Cross-validate with gold set
