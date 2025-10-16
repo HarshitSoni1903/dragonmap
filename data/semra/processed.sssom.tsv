@@ -1,0 +1,686 @@
+subject_id	predicate_id	object_id	mapping_justification	mapping_set	mapping_set_version	mapping_set_license	mapping_set_confidence	author_id	comment
+mesh:D000009	skos:exactMatch	ncit:C32040	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C32040	skos:exactMatch	mesh:D000009	semapv:MappingInversion	biomappings			1.0		mesh:D000009 ncit:C32040
+mesh:D001012	skos:exactMatch	ncit:C32038	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C32038	skos:exactMatch	mesh:D001012	semapv:MappingInversion	biomappings			1.0		mesh:D001012 ncit:C32038
+mesh:D001065	skos:exactMatch	ncit:C12380	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+ncit:C12380	skos:exactMatch	mesh:D001065	semapv:MappingInversion	biomappings			1.0		mesh:D001065 ncit:C12380
+mesh:D005624	skos:exactMatch	ncit:C32635	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C32635	skos:exactMatch	mesh:D005624	semapv:MappingInversion	biomappings			1.0		mesh:D005624 ncit:C32635
+mesh:D005728	skos:exactMatch	ncit:C12467	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C12467	skos:exactMatch	mesh:D005728	semapv:MappingInversion	biomappings			1.0		mesh:D005728 ncit:C12467
+mesh:D005744	skos:exactMatch	ncit:C94192	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C94192	skos:exactMatch	mesh:D005744	semapv:MappingInversion	biomappings			1.0		mesh:D005744 ncit:C94192
+mesh:D005753	skos:exactMatch	ncit:C32656	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C32656	skos:exactMatch	mesh:D005753	semapv:MappingInversion	biomappings			1.0		mesh:D005753 ncit:C32656
+mesh:D016909	skos:exactMatch	ncit:C12824	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C12824	skos:exactMatch	mesh:D016909	semapv:MappingInversion	biomappings			1.0		mesh:D016909 ncit:C12824
+mesh:D017006	skos:exactMatch	ncit:C33497	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C33497	skos:exactMatch	mesh:D017006	semapv:MappingInversion	biomappings			1.0		mesh:D017006 ncit:C33497
+mesh:D017072	skos:exactMatch	ncit:C111122	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C111122	skos:exactMatch	mesh:D017072	semapv:MappingInversion	biomappings			1.0		mesh:D017072 ncit:C111122
+mesh:D034861	skos:exactMatch	ncit:C77608	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C77608	skos:exactMatch	mesh:D034861	semapv:MappingInversion	biomappings			1.0		mesh:D034861 ncit:C77608
+mesh:D057146	skos:exactMatch	ncit:C33144	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C33144	skos:exactMatch	mesh:D057146	semapv:MappingInversion	biomappings			1.0		mesh:D057146 ncit:C33144
+mesh:D058746	skos:exactMatch	ncit:C82951	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C82951	skos:exactMatch	mesh:D058746	semapv:MappingInversion	biomappings			1.0		mesh:D058746 ncit:C82951
+mesh:D060168	skos:exactMatch	ncit:C12994	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C12994	skos:exactMatch	mesh:D060168	semapv:MappingInversion	biomappings			1.0		mesh:D060168 ncit:C12994
+mesh:D060910	skos:exactMatch	ncit:C34280	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+ncit:C34280	skos:exactMatch	mesh:D060910	semapv:MappingInversion	biomappings			1.0		mesh:D060910 ncit:C34280
+mesh:D064048	skos:exactMatch	ncit:C13365	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C13365	skos:exactMatch	mesh:D064048	semapv:MappingInversion	biomappings			1.0		mesh:D064048 ncit:C13365
+mesh:D064591	skos:exactMatch	ncit:C60701	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C60701	skos:exactMatch	mesh:D064591	semapv:MappingInversion	biomappings			1.0		mesh:D064591 ncit:C60701
+mesh:D064652	skos:exactMatch	ncit:C32183	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C32183	skos:exactMatch	mesh:D064652	semapv:MappingInversion	biomappings			1.0		mesh:D064652 ncit:C32183
+mesh:D065842	skos:exactMatch	ncit:C97341	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C97341	skos:exactMatch	mesh:D065842	semapv:MappingInversion	biomappings			1.0		mesh:D065842 ncit:C97341
+mesh:D065843	skos:exactMatch	ncit:C32409	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C32409	skos:exactMatch	mesh:D065843	semapv:MappingInversion	biomappings			1.0		mesh:D065843 ncit:C32409
+mesh:D065850	skos:exactMatch	ncit:C32291	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C32291	skos:exactMatch	mesh:D065850	semapv:MappingInversion	biomappings			1.0		mesh:D065850 ncit:C32291
+mesh:D065866	skos:exactMatch	ncit:C33218	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C33218	skos:exactMatch	mesh:D065866	semapv:MappingInversion	biomappings			1.0		mesh:D065866 ncit:C33218
+mesh:D066127	skos:exactMatch	ncit:C33892	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C33892	skos:exactMatch	mesh:D066127	semapv:MappingInversion	biomappings			1.0		mesh:D066127 ncit:C33892
+mesh:D066128	skos:exactMatch	ncit:C32695	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C32695	skos:exactMatch	mesh:D066128	semapv:MappingInversion	biomappings			1.0		mesh:D066128 ncit:C32695
+mesh:D066186	skos:exactMatch	ncit:C32391	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C32391	skos:exactMatch	mesh:D066186	semapv:MappingInversion	biomappings			1.0		mesh:D066186 ncit:C32391
+mesh:D066191	skos:exactMatch	ncit:C154777	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C154777	skos:exactMatch	mesh:D066191	semapv:MappingInversion	biomappings			1.0		mesh:D066191 ncit:C154777
+mesh:D066271	skos:exactMatch	ncit:C32550	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C32550	skos:exactMatch	mesh:D066271	semapv:MappingInversion	biomappings			1.0		mesh:D066271 ncit:C32550
+mesh:D066293	skos:exactMatch	ncit:C33463	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+ncit:C33463	skos:exactMatch	mesh:D066293	semapv:MappingInversion	biomappings			1.0		mesh:D066293 ncit:C33463
+uberon:0000017	skos:exactMatch	mesh:D046790	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D046790	skos:exactMatch	uberon:0000017	semapv:MappingInversion	biomappings			1.0		uberon:0000017 mesh:D046790
+uberon:0000076	skos:exactMatch	bto:0006242	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006242	skos:exactMatch	uberon:0000076	semapv:MappingInversion	biomappings			1.0		uberon:0000076 bto:0006242
+uberon:0000120	skos:exactMatch	mesh:D001812	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D001812	skos:exactMatch	uberon:0000120	semapv:MappingInversion	biomappings			1.0		uberon:0000120 mesh:D001812
+uberon:0000127	skos:exactMatch	mesh:D065828	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065828	skos:exactMatch	uberon:0000127	semapv:MappingInversion	biomappings			1.0		uberon:0000127 mesh:D065828
+uberon:0000159	skos:exactMatch	mesh:D001003	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D001003	skos:exactMatch	uberon:0000159	semapv:MappingInversion	biomappings			1.0		uberon:0000159 mesh:D001003
+uberon:0000220	skos:exactMatch	mesh:D001269	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D001269	skos:exactMatch	uberon:0000220	semapv:MappingInversion	biomappings			1.0		uberon:0000220 mesh:D001269
+uberon:0000353	skos:exactMatch	bto:0001539	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0001539	skos:exactMatch	uberon:0000353	semapv:MappingInversion	biomappings			1.0		uberon:0000353 bto:0001539
+uberon:0000387	skos:exactMatch	mesh:D000072600	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000072600	skos:exactMatch	uberon:0000387	semapv:MappingInversion	biomappings			1.0		uberon:0000387 mesh:D000072600
+uberon:0000569	skos:exactMatch	mesh:D007080	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D007080	skos:exactMatch	uberon:0000569	semapv:MappingInversion	biomappings			1.0		uberon:0000569 mesh:D007080
+uberon:0000939	skos:exactMatch	mesh:D060227	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D060227	skos:exactMatch	uberon:0000939	semapv:MappingInversion	biomappings			1.0		uberon:0000939 mesh:D060227
+uberon:0001049	skos:exactMatch	mesh:D054259	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D054259	skos:exactMatch	uberon:0001049	semapv:MappingInversion	biomappings			1.0		uberon:0001049 mesh:D054259
+uberon:0001156	skos:exactMatch	mesh:D044682	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D044682	skos:exactMatch	uberon:0001156	semapv:MappingInversion	biomappings			1.0		uberon:0001156 mesh:D044682
+uberon:0001157	skos:exactMatch	mesh:D044684	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D044684	skos:exactMatch	uberon:0001157	semapv:MappingInversion	biomappings			1.0		uberon:0001157 mesh:D044684
+uberon:0001158	skos:exactMatch	mesh:D044683	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D044683	skos:exactMatch	uberon:0001158	semapv:MappingInversion	biomappings			1.0		uberon:0001158 mesh:D044683
+uberon:0001347	skos:exactMatch	mesh:D052436	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D052436	skos:exactMatch	uberon:0001347	semapv:MappingInversion	biomappings			1.0		uberon:0001347 mesh:D052436
+uberon:0001473	skos:exactMatch	mesh:D042601	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D042601	skos:exactMatch	uberon:0001473	semapv:MappingInversion	biomappings			1.0		uberon:0001473 mesh:D042601
+uberon:0001642	skos:exactMatch	mesh:D054063	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D054063	skos:exactMatch	uberon:0001642	semapv:MappingInversion	biomappings			1.0		uberon:0001642 mesh:D054063
+uberon:0001715	skos:exactMatch	mesh:D065838	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065838	skos:exactMatch	uberon:0001715	semapv:MappingInversion	biomappings			1.0		uberon:0001715 mesh:D065838
+uberon:0001806	skos:exactMatch	mesh:D005728	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D005728	skos:exactMatch	uberon:0001806	semapv:MappingInversion	biomappings			1.0		uberon:0001806 mesh:D005728
+uberon:0001808	skos:exactMatch	mesh:D005726	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D005726	skos:exactMatch	uberon:0001808	semapv:MappingInversion	biomappings			1.0		uberon:0001808 mesh:D005726
+uberon:0001823	skos:exactMatch	mesh:D055171	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D055171	skos:exactMatch	uberon:0001823	semapv:MappingInversion	biomappings			1.0		uberon:0001823 mesh:D055171
+uberon:0001856	skos:exactMatch	mesh:D054776	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D054776	skos:exactMatch	uberon:0001856	semapv:MappingInversion	biomappings			1.0		uberon:0001856 mesh:D054776
+uberon:0001862	skos:exactMatch	mesh:D014722	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D014722	skos:exactMatch	uberon:0001862	semapv:MappingInversion	biomappings			1.0		uberon:0001862 mesh:D014722
+uberon:0001863	skos:exactMatch	mesh:D054738	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D054738	skos:exactMatch	uberon:0001863	semapv:MappingInversion	biomappings			1.0		uberon:0001863 mesh:D054738
+uberon:0001883	skos:exactMatch	mesh:D066208	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066208	skos:exactMatch	uberon:0001883	semapv:MappingInversion	biomappings			1.0		uberon:0001883 mesh:D066208
+uberon:0001907	skos:exactMatch	mesh:D065820	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065820	skos:exactMatch	uberon:0001907	semapv:MappingInversion	biomappings			1.0		uberon:0001907 mesh:D065820
+uberon:0001931	skos:exactMatch	bto:0006166	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006166	skos:exactMatch	uberon:0001931	semapv:MappingInversion	biomappings			1.0		uberon:0001931 bto:0006166
+uberon:0001944	skos:exactMatch	mesh:D066250	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066250	skos:exactMatch	uberon:0001944	semapv:MappingInversion	biomappings			1.0		uberon:0001944 mesh:D066250
+uberon:0001947	skos:exactMatch	bto:0006329	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006329	skos:exactMatch	uberon:0001947	semapv:MappingInversion	biomappings			1.0		uberon:0001947 bto:0006329
+uberon:0001977	skos:exactMatch	mesh:D044967	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D044967	skos:exactMatch	uberon:0001977	semapv:MappingInversion	biomappings			1.0		uberon:0001977 mesh:D044967
+uberon:0001995	skos:exactMatch	mesh:D051445	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D051445	skos:exactMatch	uberon:0001995	semapv:MappingInversion	biomappings			1.0		uberon:0001995 mesh:D051445
+uberon:0002020	skos:exactMatch	mesh:D066128	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066128	skos:exactMatch	uberon:0002020	semapv:MappingInversion	biomappings			1.0		uberon:0002020 mesh:D066128
+uberon:0002035	skos:exactMatch	bto:0006167	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006167	skos:exactMatch	uberon:0002035	semapv:MappingInversion	biomappings			1.0		uberon:0002035 bto:0006167
+uberon:0002043	skos:exactMatch	mesh:D065847	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065847	skos:exactMatch	uberon:0002043	semapv:MappingInversion	biomappings			1.0		uberon:0002043 mesh:D065847
+uberon:0002062	skos:exactMatch	mesh:D054089	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D054089	skos:exactMatch	uberon:0002062	semapv:MappingInversion	biomappings			1.0		uberon:0002062 mesh:D054089
+uberon:0002120	skos:exactMatch	mesh:D060910	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D060910	skos:exactMatch	uberon:0002120	semapv:MappingInversion	biomappings			1.0		uberon:0002120 mesh:D060910
+uberon:0002128	skos:exactMatch	mesh:D065832	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065832	skos:exactMatch	uberon:0002128	semapv:MappingInversion	biomappings			1.0		uberon:0002128 mesh:D065832
+uberon:0002142	skos:exactMatch	mesh:D045042	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+mesh:D045042	skos:exactMatch	uberon:0002142	semapv:MappingInversion	biomappings			1.0		uberon:0002142 mesh:D045042
+uberon:0002145	skos:exactMatch	mesh:D066268	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066268	skos:exactMatch	uberon:0002145	semapv:MappingInversion	biomappings			1.0		uberon:0002145 mesh:D066268
+uberon:0002152	skos:exactMatch	mesh:D065837	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065837	skos:exactMatch	uberon:0002152	semapv:MappingInversion	biomappings			1.0		uberon:0002152 mesh:D065837
+uberon:0002156	skos:exactMatch	mesh:D065846	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065846	skos:exactMatch	uberon:0002156	semapv:MappingInversion	biomappings			1.0		uberon:0002156 mesh:D065846
+uberon:0002157	skos:exactMatch	mesh:D065848	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065848	skos:exactMatch	uberon:0002157	semapv:MappingInversion	biomappings			1.0		uberon:0002157 mesh:D065848
+uberon:0002186	skos:exactMatch	mesh:D055745	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D055745	skos:exactMatch	uberon:0002186	semapv:MappingInversion	biomappings			1.0		uberon:0002186 mesh:D055745
+uberon:0002219	skos:exactMatch	bto:0006266	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006266	skos:exactMatch	uberon:0002219	semapv:MappingInversion	biomappings			1.0		uberon:0002219 bto:0006266
+uberon:0002236	skos:exactMatch	mesh:D066186	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066186	skos:exactMatch	uberon:0002236	semapv:MappingInversion	biomappings			1.0		uberon:0002236 mesh:D066186
+uberon:0002242	skos:exactMatch	mesh:D000070614	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000070614	skos:exactMatch	uberon:0002242	semapv:MappingInversion	biomappings			1.0		uberon:0002242 mesh:D000070614
+uberon:0002262	skos:exactMatch	bto:0006296	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006296	skos:exactMatch	uberon:0002262	semapv:MappingInversion	biomappings			1.0		uberon:0002262 bto:0006296
+uberon:0002316	skos:exactMatch	mesh:D066127	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066127	skos:exactMatch	uberon:0002316	semapv:MappingInversion	biomappings			1.0		uberon:0002316 mesh:D066127
+uberon:0002373	skos:exactMatch	mesh:D014066	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D014066	skos:exactMatch	uberon:0002373	semapv:MappingInversion	biomappings			1.0		uberon:0002373 mesh:D014066
+uberon:0002396	skos:exactMatch	mesh:D055172	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D055172	skos:exactMatch	uberon:0002396	semapv:MappingInversion	biomappings			1.0		uberon:0002396 mesh:D055172
+uberon:0002409	skos:exactMatch	mesh:D000069236	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000069236	skos:exactMatch	uberon:0002409	semapv:MappingInversion	biomappings			1.0		uberon:0002409 mesh:D000069236
+uberon:0002412	skos:exactMatch	bto:0006196	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006196	skos:exactMatch	uberon:0002412	semapv:MappingInversion	biomappings			1.0		uberon:0002412 bto:0006196
+uberon:0002430	skos:exactMatch	bto:0006481	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006481	skos:exactMatch	uberon:0002430	semapv:MappingInversion	biomappings			1.0		uberon:0002430 bto:0006481
+uberon:0002469	skos:exactMatch	mesh:D000071041	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000071041	skos:exactMatch	uberon:0002469	semapv:MappingInversion	biomappings			1.0		uberon:0002469 mesh:D000071041
+uberon:0002493	skos:exactMatch	mesh:D055988	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D055988	skos:exactMatch	uberon:0002493	semapv:MappingInversion	biomappings			1.0		uberon:0002493 mesh:D055988
+uberon:0002540	skos:exactMatch	mesh:D053403	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D053403	skos:exactMatch	uberon:0002540	semapv:MappingInversion	biomappings			1.0		uberon:0002540 mesh:D053403
+uberon:0002600	skos:exactMatch	mesh:D065726	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065726	skos:exactMatch	uberon:0002600	semapv:MappingInversion	biomappings			1.0		uberon:0002600 mesh:D065726
+uberon:0002623	skos:exactMatch	mesh:D065850	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065850	skos:exactMatch	uberon:0002623	semapv:MappingInversion	biomappings			1.0		uberon:0002623 mesh:D065850
+uberon:0002625	skos:exactMatch	bto:0006168	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006168	skos:exactMatch	uberon:0002625	semapv:MappingInversion	biomappings			1.0		uberon:0002625 bto:0006168
+uberon:0002631	skos:exactMatch	mesh:D065843	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065843	skos:exactMatch	uberon:0002631	semapv:MappingInversion	biomappings			1.0		uberon:0002631 mesh:D065843
+uberon:0002639	skos:exactMatch	mesh:D066265	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066265	skos:exactMatch	uberon:0002639	semapv:MappingInversion	biomappings			1.0		uberon:0002639 mesh:D066265
+uberon:0002682	skos:exactMatch	mesh:D065827	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065827	skos:exactMatch	uberon:0002682	semapv:MappingInversion	biomappings			1.0		uberon:0002682 mesh:D065827
+uberon:0002684	skos:exactMatch	mesh:D065849	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065849	skos:exactMatch	uberon:0002684	semapv:MappingInversion	biomappings			1.0		uberon:0002684 mesh:D065849
+uberon:0002689	skos:exactMatch	bto:0006268	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006268	skos:exactMatch	uberon:0002689	semapv:MappingInversion	biomappings			1.0		uberon:0002689 bto:0006268
+uberon:0002707	skos:exactMatch	bto:0006132	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006132	skos:exactMatch	uberon:0002707	semapv:MappingInversion	biomappings			1.0		uberon:0002707 bto:0006132
+uberon:0002714	skos:exactMatch	bto:0006159	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006159	skos:exactMatch	uberon:0002714	semapv:MappingInversion	biomappings			1.0		uberon:0002714 bto:0006159
+uberon:0002743	skos:exactMatch	mesh:D066187	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066187	skos:exactMatch	uberon:0002743	semapv:MappingInversion	biomappings			1.0		uberon:0002743 mesh:D066187
+uberon:0002751	skos:exactMatch	bto:0006175	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006175	skos:exactMatch	uberon:0002751	semapv:MappingInversion	biomappings			1.0		uberon:0002751 bto:0006175
+uberon:0002752	skos:exactMatch	bto:0006157	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006157	skos:exactMatch	uberon:0002752	semapv:MappingInversion	biomappings			1.0		uberon:0002752 bto:0006157
+uberon:0002769	skos:exactMatch	bto:0006177	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006177	skos:exactMatch	uberon:0002769	semapv:MappingInversion	biomappings			1.0		uberon:0002769 bto:0006177
+uberon:0002771	skos:exactMatch	bto:0006176	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006176	skos:exactMatch	uberon:0002771	semapv:MappingInversion	biomappings			1.0		uberon:0002771 bto:0006176
+uberon:0002883	skos:exactMatch	mesh:D066274	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066274	skos:exactMatch	uberon:0002883	semapv:MappingInversion	biomappings			1.0		uberon:0002883 mesh:D066274
+uberon:0002894	skos:exactMatch	mesh:D066194	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066194	skos:exactMatch	uberon:0002894	semapv:MappingInversion	biomappings			1.0		uberon:0002894 mesh:D066194
+uberon:0002932	skos:exactMatch	mesh:D065833	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065833	skos:exactMatch	uberon:0002932	semapv:MappingInversion	biomappings			1.0		uberon:0002932 mesh:D065833
+uberon:0003023	skos:exactMatch	mesh:D065821	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065821	skos:exactMatch	uberon:0003023	semapv:MappingInversion	biomappings			1.0		uberon:0003023 mesh:D065821
+uberon:0003044	skos:exactMatch	mesh:D000083382	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000083382	skos:exactMatch	uberon:0003044	semapv:MappingInversion	biomappings			1.0		uberon:0003044 mesh:D000083382
+uberon:0003050	skos:exactMatch	bto:0006222	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006222	skos:exactMatch	uberon:0003050	semapv:MappingInversion	biomappings			1.0		uberon:0003050 bto:0006222
+uberon:0003055	skos:exactMatch	bto:0003377	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0003377	skos:exactMatch	uberon:0003055	semapv:MappingInversion	biomappings			1.0		uberon:0003055 bto:0003377
+uberon:0003060	skos:exactMatch	bto:0005991	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0005991	skos:exactMatch	uberon:0003060	semapv:MappingInversion	biomappings			1.0		uberon:0003060 bto:0005991
+uberon:0003074	skos:exactMatch	bto:0005990	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0005990	skos:exactMatch	uberon:0003074	semapv:MappingInversion	biomappings			1.0		uberon:0003074 bto:0005990
+uberon:0003075	skos:exactMatch	mesh:D054258	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D054258	skos:exactMatch	uberon:0003075	semapv:MappingInversion	biomappings			1.0		uberon:0003075 mesh:D054258
+uberon:0003089	skos:exactMatch	bto:0006255	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006255	skos:exactMatch	uberon:0003089	semapv:MappingInversion	biomappings			1.0		uberon:0003089 bto:0006255
+uberon:0003209	skos:exactMatch	mesh:D049428	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D049428	skos:exactMatch	uberon:0003209	semapv:MappingInversion	biomappings			1.0		uberon:0003209 mesh:D049428
+uberon:0003460	skos:exactMatch	mesh:D050280	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D050280	skos:exactMatch	uberon:0003460	semapv:MappingInversion	biomappings			1.0		uberon:0003460 mesh:D050280
+uberon:0003462	skos:exactMatch	mesh:D005147	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D005147	skos:exactMatch	uberon:0003462	semapv:MappingInversion	biomappings			1.0		uberon:0003462 mesh:D005147
+uberon:0003679	skos:exactMatch	bto:0006184	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006184	skos:exactMatch	uberon:0003679	semapv:MappingInversion	biomappings			1.0		uberon:0003679 bto:0006184
+uberon:0003687	skos:exactMatch	bto:0006035	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006035	skos:exactMatch	uberon:0003687	semapv:MappingInversion	biomappings			1.0		uberon:0003687 bto:0006035
+uberon:0003881	skos:exactMatch	mesh:D056547	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D056547	skos:exactMatch	uberon:0003881	semapv:MappingInversion	biomappings			1.0		uberon:0003881 mesh:D056547
+uberon:0003882	skos:exactMatch	mesh:D056651	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D056651	skos:exactMatch	uberon:0003882	semapv:MappingInversion	biomappings			1.0		uberon:0003882 mesh:D056651
+uberon:0003883	skos:exactMatch	mesh:D056654	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D056654	skos:exactMatch	uberon:0003883	semapv:MappingInversion	biomappings			1.0		uberon:0003883 mesh:D056654
+uberon:0003911	skos:exactMatch	bto:0006008	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006008	skos:exactMatch	uberon:0003911	semapv:MappingInversion	biomappings			1.0		uberon:0003911 bto:0006008
+uberon:0003937	skos:exactMatch	bto:0006162	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006162	skos:exactMatch	uberon:0003937	semapv:MappingInversion	biomappings			1.0		uberon:0003937 bto:0006162
+uberon:0004016	skos:exactMatch	bto:0006248	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006248	skos:exactMatch	uberon:0004016	semapv:MappingInversion	biomappings			1.0		uberon:0004016 bto:0006248
+uberon:0004341	skos:exactMatch	mesh:D054240	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D054240	skos:exactMatch	uberon:0004341	semapv:MappingInversion	biomappings			1.0		uberon:0004341 mesh:D054240
+uberon:0004637	skos:exactMatch	bto:0005981	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0005981	skos:exactMatch	uberon:0004637	semapv:MappingInversion	biomappings			1.0		uberon:0004637 bto:0005981
+uberon:0004676	skos:exactMatch	mesh:D066152	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066152	skos:exactMatch	uberon:0004676	semapv:MappingInversion	biomappings			1.0		uberon:0004676 mesh:D066152
+uberon:0004720	skos:exactMatch	mesh:D065814	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065814	skos:exactMatch	uberon:0004720	semapv:MappingInversion	biomappings			1.0		uberon:0004720 mesh:D065814
+uberon:0004725	skos:exactMatch	mesh:D066195	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066195	skos:exactMatch	uberon:0004725	semapv:MappingInversion	biomappings			1.0		uberon:0004725 mesh:D066195
+uberon:0004749	skos:exactMatch	mesh:D054239	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D054239	skos:exactMatch	uberon:0004749	semapv:MappingInversion	biomappings			1.0		uberon:0004749 mesh:D054239
+uberon:0005290	skos:exactMatch	mesh:D054024	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D054024	skos:exactMatch	uberon:0005290	semapv:MappingInversion	biomappings			1.0		uberon:0005290 mesh:D054024
+uberon:0005335	skos:exactMatch	mesh:D049033	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D049033	skos:exactMatch	uberon:0005335	semapv:MappingInversion	biomappings			1.0		uberon:0005335 mesh:D049033
+uberon:0005403	skos:exactMatch	mesh:D066328	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066328	skos:exactMatch	uberon:0005403	semapv:MappingInversion	biomappings			1.0		uberon:0005403 mesh:D066328
+uberon:0005408	skos:exactMatch	bto:0006267	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006267	skos:exactMatch	uberon:0005408	semapv:MappingInversion	biomappings			1.0		uberon:0005408 bto:0006267
+uberon:0005408	skos:exactMatch	mesh:D066280	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066280	skos:exactMatch	uberon:0005408	semapv:MappingInversion	biomappings			1.0		uberon:0005408 mesh:D066280
+uberon:0005438	skos:exactMatch	mesh:D054326	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D054326	skos:exactMatch	uberon:0005438	semapv:MappingInversion	biomappings			1.0		uberon:0005438 mesh:D054326
+uberon:0005456	skos:exactMatch	mesh:D000080869	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000080869	skos:exactMatch	uberon:0005456	semapv:MappingInversion	biomappings			1.0		uberon:0005456 mesh:D000080869
+uberon:0005498	skos:exactMatch	bto:0006179	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006179	skos:exactMatch	uberon:0005498	semapv:MappingInversion	biomappings			1.0		uberon:0005498 bto:0006179
+uberon:0005631	skos:exactMatch	mesh:D005321	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D005321	skos:exactMatch	uberon:0005631	semapv:MappingInversion	biomappings			1.0		uberon:0005631 mesh:D005321
+uberon:0005742	skos:exactMatch	mesh:D063194	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D063194	skos:exactMatch	uberon:0005742	semapv:MappingInversion	biomappings			1.0		uberon:0005742 mesh:D063194
+uberon:0005777	skos:exactMatch	mesh:D050533	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D050533	skos:exactMatch	uberon:0005777	semapv:MappingInversion	biomappings			1.0		uberon:0005777 mesh:D050533
+uberon:0006083	skos:exactMatch	mesh:D000071039	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000071039	skos:exactMatch	uberon:0006083	semapv:MappingInversion	biomappings			1.0		uberon:0006083 mesh:D000071039
+uberon:0006108	skos:exactMatch	mesh:D066276	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066276	skos:exactMatch	uberon:0006108	semapv:MappingInversion	biomappings			1.0		uberon:0006108 mesh:D066276
+uberon:0006444	skos:exactMatch	mesh:D000070616	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000070616	skos:exactMatch	uberon:0006444	semapv:MappingInversion	biomappings			1.0		uberon:0006444 mesh:D000070616
+uberon:0006562	skos:exactMatch	mesh:D010614	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D010614	skos:exactMatch	uberon:0006562	semapv:MappingInversion	biomappings			1.0		uberon:0006562 mesh:D010614
+uberon:0006588	skos:exactMatch	mesh:D000069592	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000069592	skos:exactMatch	uberon:0006588	semapv:MappingInversion	biomappings			1.0		uberon:0006588 mesh:D000069592
+uberon:0006589	skos:exactMatch	mesh:D012404	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D012404	skos:exactMatch	uberon:0006589	semapv:MappingInversion	biomappings			1.0		uberon:0006589 mesh:D012404
+uberon:0006614	skos:exactMatch	mesh:D000070606	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000070606	skos:exactMatch	uberon:0006614	semapv:MappingInversion	biomappings			1.0		uberon:0006614 mesh:D000070606
+uberon:0006675	skos:exactMatch	mesh:D055422	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D055422	skos:exactMatch	uberon:0006675	semapv:MappingInversion	biomappings			1.0		uberon:0006675 mesh:D055422
+uberon:0006812	skos:exactMatch	mesh:D000080383	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000080383	skos:exactMatch	uberon:0006812	semapv:MappingInversion	biomappings			1.0		uberon:0006812 mesh:D000080383
+uberon:0007109	skos:exactMatch	mesh:D008470	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D008470	skos:exactMatch	uberon:0007109	semapv:MappingInversion	biomappings			1.0		uberon:0007109 mesh:D008470
+uberon:0007132	skos:exactMatch	mesh:D060226	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D060226	skos:exactMatch	uberon:0007132	semapv:MappingInversion	biomappings			1.0		uberon:0007132 mesh:D060226
+uberon:0007268	skos:exactMatch	mesh:D049631	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D049631	skos:exactMatch	uberon:0007268	semapv:MappingInversion	biomappings			1.0		uberon:0007268 mesh:D049631
+uberon:0007329	skos:exactMatch	mesh:D010183	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D010183	skos:exactMatch	uberon:0007329	semapv:MappingInversion	biomappings			1.0		uberon:0007329 mesh:D010183
+uberon:0007412	skos:exactMatch	mesh:D066267	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066267	skos:exactMatch	uberon:0007412	semapv:MappingInversion	biomappings			1.0		uberon:0007412 mesh:D066267
+uberon:0007632	skos:exactMatch	mesh:D065835	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065835	skos:exactMatch	uberon:0007632	semapv:MappingInversion	biomappings			1.0		uberon:0007632 mesh:D065835
+uberon:0007634	skos:exactMatch	mesh:D065823	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D065823	skos:exactMatch	uberon:0007634	semapv:MappingInversion	biomappings			1.0		uberon:0007634 mesh:D065823
+uberon:0007703	skos:exactMatch	bto:0006128	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006128	skos:exactMatch	uberon:0007703	semapv:MappingInversion	biomappings			1.0		uberon:0007703 bto:0006128
+uberon:0007703	skos:exactMatch	mesh:D013133	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D013133	skos:exactMatch	uberon:0007703	semapv:MappingInversion	biomappings			1.0		uberon:0007703 mesh:D013133
+uberon:0008266	skos:exactMatch	mesh:D010513	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D010513	skos:exactMatch	uberon:0008266	semapv:MappingInversion	biomappings			1.0		uberon:0008266 mesh:D010513
+uberon:0008904	skos:exactMatch	bto:0006219	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006219	skos:exactMatch	uberon:0008904	semapv:MappingInversion	biomappings			1.0		uberon:0008904 bto:0006219
+uberon:0008974	skos:exactMatch	mesh:D001050	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D001050	skos:exactMatch	uberon:0008974	semapv:MappingInversion	biomappings			1.0		uberon:0008974 mesh:D001050
+uberon:0009127	skos:exactMatch	bto:0006250	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006250	skos:exactMatch	uberon:0009127	semapv:MappingInversion	biomappings			1.0		uberon:0009127 bto:0006250
+uberon:0010264	skos:exactMatch	mesh:D043143	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D043143	skos:exactMatch	uberon:0010264	semapv:MappingInversion	biomappings			1.0		uberon:0010264 mesh:D043143
+uberon:0011004	skos:exactMatch	bto:0006051	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006051	skos:exactMatch	uberon:0011004	semapv:MappingInversion	biomappings			1.0		uberon:0011004 bto:0006051
+uberon:0011119	skos:exactMatch	mesh:D052737	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D052737	skos:exactMatch	uberon:0011119	semapv:MappingInversion	biomappings			1.0		uberon:0011119 mesh:D052737
+uberon:0011166	skos:exactMatch	mesh:D057071	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D057071	skos:exactMatch	uberon:0011166	semapv:MappingInversion	biomappings			1.0		uberon:0011166 mesh:D057071
+uberon:0011390	skos:exactMatch	mesh:D060525	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D060525	skos:exactMatch	uberon:0011390	semapv:MappingInversion	biomappings			1.0		uberon:0011390 mesh:D060525
+uberon:0011895	skos:exactMatch	bto:0006241	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006241	skos:exactMatch	uberon:0011895	semapv:MappingInversion	biomappings			1.0		uberon:0011895 bto:0006241
+uberon:0011905	skos:exactMatch	bto:0006312	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006312	skos:exactMatch	uberon:0011905	semapv:MappingInversion	biomappings			1.0		uberon:0011905 bto:0006312
+uberon:0013218	skos:exactMatch	bto:0006363	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006363	skos:exactMatch	uberon:0013218	semapv:MappingInversion	biomappings			1.0		uberon:0013218 bto:0006363
+uberon:0013422	skos:exactMatch	mesh:D000080884	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000080884	skos:exactMatch	uberon:0013422	semapv:MappingInversion	biomappings			1.0		uberon:0013422 mesh:D000080884
+uberon:0013755	skos:exactMatch	bto:0006188	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006188	skos:exactMatch	uberon:0013755	semapv:MappingInversion	biomappings			1.0		uberon:0013755 bto:0006188
+uberon:0013756	skos:exactMatch	bto:0006187	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006187	skos:exactMatch	uberon:0013756	semapv:MappingInversion	biomappings			1.0		uberon:0013756 bto:0006187
+uberon:0014398	skos:exactMatch	mesh:D012132	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D012132	skos:exactMatch	uberon:0014398	semapv:MappingInversion	biomappings			1.0		uberon:0014398 mesh:D012132
+uberon:0014537	skos:exactMatch	mesh:D066277	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D066277	skos:exactMatch	uberon:0014537	semapv:MappingInversion	biomappings			1.0		uberon:0014537 mesh:D066277
+uberon:0015169	skos:exactMatch	bto:0001350	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0001350	skos:exactMatch	uberon:0015169	semapv:MappingInversion	biomappings			1.0		uberon:0015169 bto:0001350
+uberon:0015488	skos:exactMatch	mesh:D013497	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D013497	skos:exactMatch	uberon:0015488	semapv:MappingInversion	biomappings			1.0		uberon:0015488 mesh:D013497
+uberon:0016884	skos:exactMatch	mesh:D012785	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D012785	skos:exactMatch	uberon:0016884	semapv:MappingInversion	biomappings			1.0		uberon:0016884 mesh:D012785
+uberon:0018144	skos:exactMatch	mesh:D057070	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D057070	skos:exactMatch	uberon:0018144	semapv:MappingInversion	biomappings			1.0		uberon:0018144 mesh:D057070
+uberon:0034971	skos:exactMatch	bto:0006193	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006193	skos:exactMatch	uberon:0034971	semapv:MappingInversion	biomappings			1.0		uberon:0034971 bto:0006193
+uberon:0034971	skos:exactMatch	mesh:D001016	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D001016	skos:exactMatch	uberon:0034971	semapv:MappingInversion	biomappings			1.0		uberon:0034971 mesh:D001016
+uberon:0035032	skos:exactMatch	mesh:D000071596	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000071596	skos:exactMatch	uberon:0035032	semapv:MappingInversion	biomappings			1.0		uberon:0035032 mesh:D000071596
+uberon:0035050	skos:exactMatch	bto:0006341	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006341	skos:exactMatch	uberon:0035050	semapv:MappingInversion	biomappings			1.0		uberon:0035050 bto:0006341
+uberon:0035618	skos:exactMatch	mesh:D000080886	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000080886	skos:exactMatch	uberon:0035618	semapv:MappingInversion	biomappings			1.0		uberon:0035618 mesh:D000080886
+uberon:0036145	skos:exactMatch	mesh:D000077502	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D000077502	skos:exactMatch	uberon:0036145	semapv:MappingInversion	biomappings			1.0		uberon:0036145 mesh:D000077502
+uberon:0036243	skos:exactMatch	bto:0003084	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0003084	skos:exactMatch	uberon:0036243	semapv:MappingInversion	biomappings			1.0		uberon:0036243 bto:0003084
+uberon:2000293	skos:exactMatch	bto:0006476	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006476	skos:exactMatch	uberon:2000293	semapv:MappingInversion	biomappings			1.0		uberon:2000293 bto:0006476
+uberon:2000297	skos:exactMatch	bto:0006431	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006431	skos:exactMatch	uberon:2000297	semapv:MappingInversion	biomappings			1.0		uberon:2000297 bto:0006431
+uberon:2000356	skos:exactMatch	bto:0002149	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0002149	skos:exactMatch	uberon:2000356	semapv:MappingInversion	biomappings			1.0		uberon:2000356 bto:0002149
+uberon:2001553	skos:exactMatch	mesh:D008371	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0001-9439-5346	
+mesh:D008371	skos:exactMatch	uberon:2001553	semapv:MappingInversion	biomappings			1.0		uberon:2001553 mesh:D008371
+uberon:3010463	skos:exactMatch	bto:0004724	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0004724	skos:exactMatch	uberon:3010463	semapv:MappingInversion	biomappings			1.0		uberon:3010463 bto:0004724
+uberon:3010586	skos:exactMatch	bto:0002254	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0002254	skos:exactMatch	uberon:3010586	semapv:MappingInversion	biomappings			1.0		uberon:3010586 bto:0002254
+uberon:4000163	skos:exactMatch	bto:0004652	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0004652	skos:exactMatch	uberon:4000163	semapv:MappingInversion	biomappings			1.0		uberon:4000163 bto:0004652
+uberon:4000164	skos:exactMatch	bto:0001827	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0001827	skos:exactMatch	uberon:4000164	semapv:MappingInversion	biomappings			1.0		uberon:4000164 bto:0001827
+uberon:4300194	skos:exactMatch	bto:0001477	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0001477	skos:exactMatch	uberon:4300194	semapv:MappingInversion	biomappings			1.0		uberon:4300194 bto:0001477
+uberon:8440012	skos:exactMatch	bto:0006534	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006534	skos:exactMatch	uberon:8440012	semapv:MappingInversion	biomappings			1.0		uberon:8440012 bto:0006534
+uberon:8450002	skos:exactMatch	bto:0006338	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0006338	skos:exactMatch	uberon:8450002	semapv:MappingInversion	biomappings			1.0		uberon:8450002 bto:0006338
+uberon:8480040	skos:exactMatch	bto:0004569	semapv:ManualMappingCuration	biomappings	0.3.8.dev0	CC0	0.999	orcid:0000-0003-4423-4370	
+bto:0004569	skos:exactMatch	uberon:8480040	semapv:MappingInversion	biomappings			1.0		uberon:8480040 bto:0004569
+ncit:C103222	oboinowl:hasDbXref	uberon:0013069	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C103384	oboinowl:hasDbXref	uberon:0015878	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12220	oboinowl:hasDbXref	uberon:0001833	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12230	oboinowl:hasDbXref	uberon:0003216	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12232	oboinowl:hasDbXref	uberon:0001734	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12233	oboinowl:hasDbXref	uberon:0001736	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12234	oboinowl:hasDbXref	uberon:0001832	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12246	oboinowl:hasDbXref	uberon:0001051	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12253	oboinowl:hasDbXref	uberon:0013472	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12254	oboinowl:hasDbXref	uberon:0013474	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12255	oboinowl:hasDbXref	uberon:0013473	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12256	oboinowl:hasDbXref	uberon:0001162	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12257	oboinowl:hasDbXref	uberon:0001160	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12260	oboinowl:hasDbXref	uberon:0001166	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12263	oboinowl:hasDbXref	uberon:0002114	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12265	oboinowl:hasDbXref	uberon:0001156	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12266	oboinowl:hasDbXref	uberon:0022277	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12267	oboinowl:hasDbXref	uberon:0022276	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12268	oboinowl:hasDbXref	uberon:0001158	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12275	oboinowl:hasDbXref	uberon:0001764	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12279	oboinowl:hasDbXref	uberon:0036263	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12280	oboinowl:hasDbXref	uberon:0036068	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12290	oboinowl:hasDbXref	uberon:0001684	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12292	oboinowl:hasDbXref	uberon:0001757	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12298	oboinowl:hasDbXref	uberon:0003693	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12308	oboinowl:hasDbXref	uberon:0002411	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12311	oboinowl:hasDbXref	uberon:0000002	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12318	oboinowl:hasDbXref	uberon:0012332	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12328	oboinowl:hasDbXref	uberon:0001301	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12341	oboinowl:hasDbXref	uberon:0001811	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12343	oboinowl:hasDbXref	uberon:0000966	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12346	oboinowl:hasDbXref	uberon:0001817	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12347	oboinowl:hasDbXref	uberon:0001697	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12351	oboinowl:hasDbXref	uberon:0001869	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12352	oboinowl:hasDbXref	uberon:0016525	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12363	oboinowl:hasDbXref	uberon:0015876	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12366	oboinowl:hasDbXref	uberon:0001474	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12366	oboinowl:hasDbXref	uberon:0002481	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12372	oboinowl:hasDbXref	uberon:0001637	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12374	oboinowl:hasDbXref	uberon:0002384	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12376	oboinowl:hasDbXref	uberon:0002394	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12377	oboinowl:hasDbXref	uberon:0002110	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12379	oboinowl:hasDbXref	uberon:0000059	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12380	oboinowl:hasDbXref	uberon:0001154	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12381	oboinowl:hasDbXref	uberon:0001153	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12382	oboinowl:hasDbXref	uberon:0001155	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12384	oboinowl:hasDbXref	uberon:0001159	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12385	oboinowl:hasDbXref	uberon:0001157	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12386	oboinowl:hasDbXref	uberon:0002108	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12387	oboinowl:hasDbXref	uberon:0002116	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12388	oboinowl:hasDbXref	uberon:0002115	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12389	oboinowl:hasDbXref	uberon:0001043	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12390	oboinowl:hasDbXref	uberon:0001052	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12391	oboinowl:hasDbXref	uberon:0000945	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12392	oboinowl:hasDbXref	uberon:0002107	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12393	oboinowl:hasDbXref	uberon:0001264	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12394	oboinowl:hasDbXref	uberon:0001690	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12398	oboinowl:hasDbXref	uberon:0001905	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12399	oboinowl:hasDbXref	uberon:0000007	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12400	oboinowl:hasDbXref	uberon:0002046	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12401	oboinowl:hasDbXref	uberon:0000970	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12403	oboinowl:hasDbXref	uberon:0003889	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12404	oboinowl:hasDbXref	uberon:0000992	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12405	oboinowl:hasDbXref	uberon:0000995	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12407	oboinowl:hasDbXref	uberon:0000996	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12408	oboinowl:hasDbXref	uberon:0000997	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12409	oboinowl:hasDbXref	uberon:0000989	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12410	oboinowl:hasDbXref	uberon:0002367	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12412	oboinowl:hasDbXref	uberon:0000473	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12414	oboinowl:hasDbXref	uberon:0001255	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12415	oboinowl:hasDbXref	uberon:0002113	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12416	oboinowl:hasDbXref	uberon:0000056	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12417	oboinowl:hasDbXref	uberon:0000057	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12418	oboinowl:hasDbXref	uberon:0000033	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12418	oboinowl:hasDbXref	uberon:0000974	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12420	oboinowl:hasDbXref	uberon:0001737	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12421	oboinowl:hasDbXref	uberon:0000165	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12421	oboinowl:hasDbXref	uberon:0000167	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12422	oboinowl:hasDbXref	uberon:0001723	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12423	oboinowl:hasDbXref	uberon:0001728	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12424	oboinowl:hasDbXref	uberon:0001707	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12425	oboinowl:hasDbXref	uberon:0006562	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12427	oboinowl:hasDbXref	uberon:0001831	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12428	oboinowl:hasDbXref	uberon:0003126	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12429	oboinowl:hasDbXref	uberon:0002101	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12431	oboinowl:hasDbXref	uberon:0002371	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12432	oboinowl:hasDbXref	uberon:0002106	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12433	oboinowl:hasDbXref	uberon:0002370	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12434	oboinowl:hasDbXref	uberon:0000178	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12438	oboinowl:hasDbXref	uberon:0001017	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12439	oboinowl:hasDbXref	uberon:0000955	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12441	oboinowl:hasDbXref	uberon:0002298	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12443	oboinowl:hasDbXref	uberon:0000956	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12445	oboinowl:hasDbXref	uberon:0002037	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12454	oboinowl:hasDbXref	uberon:0001906	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12459	oboinowl:hasDbXref	uberon:0010225	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12464	oboinowl:hasDbXref	uberon:0002240	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12468	oboinowl:hasDbXref	uberon:0002048	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12469	oboinowl:hasDbXref	uberon:0000977	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12470	oboinowl:hasDbXref	uberon:0000014	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12470	oboinowl:hasDbXref	uberon:0002097	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12471	oboinowl:hasDbXref	uberon:0034929	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12472	oboinowl:hasDbXref	uberon:0001013	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12473	oboinowl:hasDbXref	uberon:0002018	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12498	oboinowl:hasDbXref	uberon:0001352	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12505	oboinowl:hasDbXref	uberon:0006956	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12664	oboinowl:hasDbXref	uberon:0003684	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12666	oboinowl:hasDbXref	uberon:0002369	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12669	oboinowl:hasDbXref	uberon:0000947	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12671	oboinowl:hasDbXref	uberon:0001460	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12673	oboinowl:hasDbXref	uberon:0002410	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12674	oboinowl:hasDbXref	uberon:0009472	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12679	oboinowl:hasDbXref	uberon:0001981	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12683	oboinowl:hasDbXref	uberon:0002185	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12684	oboinowl:hasDbXref	uberon:0002186	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12688	oboinowl:hasDbXref	uberon:0001435	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12692	oboinowl:hasDbXref	uberon:0001359	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12693	oboinowl:hasDbXref	uberon:0002413	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12695	oboinowl:hasDbXref	uberon:0001105	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12696	oboinowl:hasDbXref	uberon:0001350	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12698	oboinowl:hasDbXref	uberon:0001174	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12700	oboinowl:hasDbXref	uberon:0001785	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12701	oboinowl:hasDbXref	uberon:0002067	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12702	oboinowl:hasDbXref	uberon:0001103	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12704	oboinowl:hasDbXref	uberon:0002368	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12711	oboinowl:hasDbXref	uberon:0001679	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12715	oboinowl:hasDbXref	uberon:0002060	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12716	oboinowl:hasDbXref	uberon:0001361	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12717	oboinowl:hasDbXref	uberon:0000981	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12718	oboinowl:hasDbXref	uberon:0001446	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12719	oboinowl:hasDbXref	uberon:0000045	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12724	oboinowl:hasDbXref	uberon:0002486	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12726	oboinowl:hasDbXref	uberon:0008337	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12727	oboinowl:hasDbXref	uberon:0000948	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12731	oboinowl:hasDbXref	uberon:0000976	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12744	oboinowl:hasDbXref	uberon:0002414	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12745	oboinowl:hasDbXref	uberon:0000029	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12748	oboinowl:hasDbXref	uberon:0003728	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12751	oboinowl:hasDbXref	uberon:0010544	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12752	oboinowl:hasDbXref	uberon:6004648	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12757	oboinowl:hasDbXref	uberon:0001676	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12762	oboinowl:hasDbXref	uberon:0001729	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12763	oboinowl:hasDbXref	uberon:0001825	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12765	oboinowl:hasDbXref	uberon:0001132	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12766	oboinowl:hasDbXref	uberon:0004865	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12767	oboinowl:hasDbXref	uberon:0001270	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12767	oboinowl:hasDbXref	uberon:0002355	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12768	oboinowl:hasDbXref	uberon:0001021	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12769	oboinowl:hasDbXref	uberon:0001179	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12770	oboinowl:hasDbXref	uberon:0002358	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12777	oboinowl:hasDbXref	uberon:0001423	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12782	oboinowl:hasDbXref	uberon:0002228	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12783	oboinowl:hasDbXref	uberon:0006849	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12785	oboinowl:hasDbXref	uberon:0001300	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12787	oboinowl:hasDbXref	uberon:0000998	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12789	oboinowl:hasDbXref	uberon:0003128	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12790	oboinowl:hasDbXref	uberon:0001677	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12793	oboinowl:hasDbXref	uberon:0000975	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12796	oboinowl:hasDbXref	uberon:0001447	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12797	oboinowl:hasDbXref	uberon:0001678	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12798	oboinowl:hasDbXref	uberon:0002347	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12799	oboinowl:hasDbXref	uberon:0001443	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12800	oboinowl:hasDbXref	uberon:0000979	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12802	oboinowl:hasDbXref	uberon:0002372	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12809	oboinowl:hasDbXref	uberon:0001424	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12813	oboinowl:hasDbXref	uberon:0001000	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12814	oboinowl:hasDbXref	uberon:0001638	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12863	oboinowl:hasDbXref	uberon:0003864	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12903	oboinowl:hasDbXref	uberon:0035279	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C12998	oboinowl:hasDbXref	uberon:0001130	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13005	oboinowl:hasDbXref	uberon:0002407	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13011	oboinowl:hasDbXref	uberon:0004913	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13044	oboinowl:hasDbXref	uberon:0000982	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13045	oboinowl:hasDbXref	uberon:0000043	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13046	oboinowl:hasDbXref	uberon:0000211	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13050	oboinowl:hasDbXref	uberon:0001134	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13062	oboinowl:hasDbXref	uberon:0001137	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13063	oboinowl:hasDbXref	uberon:0000974	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13071	oboinowl:hasDbXref	uberon:0001456	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13188	oboinowl:hasDbXref	uberon:0000173	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13190	oboinowl:hasDbXref	uberon:0001796	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C13272	oboinowl:hasDbXref	uberon:0001987	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C142320	oboinowl:hasDbXref	uberon:0015469	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C164003	oboinowl:hasDbXref	uberon:0000317	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C165177	oboinowl:hasDbXref	uberon:0004916	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C177357	oboinowl:hasDbXref	uberon:0001905	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C177357	oboinowl:hasDbXref	uberon:0003689	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C177764	oboinowl:hasDbXref	uberon:0016530	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C177766	oboinowl:hasDbXref	uberon:0001870	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C177767	oboinowl:hasDbXref	uberon:0016540	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C177768	oboinowl:hasDbXref	uberon:0016538	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C186102	oboinowl:hasDbXref	uberon:8410050	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C199220	oboinowl:hasDbXref	uberon:0005396	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C204859	oboinowl:hasDbXref	uberon:0001443	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C25203	oboinowl:hasDbXref	uberon:0001467	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C25264	oboinowl:hasDbXref	uberon:0006679	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C26470	oboinowl:hasDbXref	uberon:0002397	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32042	oboinowl:hasDbXref	uberon:0001269	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32078	oboinowl:hasDbXref	uberon:0001488	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32141	oboinowl:hasDbXref	uberon:0004250	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32212	oboinowl:hasDbXref	uberon:0001982	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32250	oboinowl:hasDbXref	uberon:0001450	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32497	oboinowl:hasDbXref	uberon:0001461	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32538	oboinowl:hasDbXref	uberon:0002469	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32608	oboinowl:hasDbXref	uberon:0002389	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32622	oboinowl:hasDbXref	uberon:0002387	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32635	oboinowl:hasDbXref	uberon:0004866	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32656	oboinowl:hasDbXref	uberon:0001199	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32668	oboinowl:hasDbXref	uberon:0007650	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32677	oboinowl:hasDbXref	uberon:0001828	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32712	oboinowl:hasDbXref	uberon:0002398	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32719	oboinowl:hasDbXref	uberon:0008775	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32730	oboinowl:hasDbXref	uberon:0005171	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32736	oboinowl:hasDbXref	uberon:0001143	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32765	oboinowl:hasDbXref	uberon:0001273	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32853	oboinowl:hasDbXref	uberon:0035219	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32884	oboinowl:hasDbXref	uberon:0001274	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32898	oboinowl:hasDbXref	uberon:0001465	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32906	oboinowl:hasDbXref	uberon:0001680	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32974	oboinowl:hasDbXref	uberon:0000978	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C32979	oboinowl:hasDbXref	uberon:0000391	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33049	oboinowl:hasDbXref	uberon:0001332	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33073	oboinowl:hasDbXref	uberon:0002524	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33103	oboinowl:hasDbXref	uberon:0002095	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33105	oboinowl:hasDbXref	uberon:0001136	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33156	oboinowl:hasDbXref	uberon:0001705	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33157	oboinowl:hasDbXref	uberon:0001681	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33209	oboinowl:hasDbXref	uberon:0003688	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33278	oboinowl:hasDbXref	uberon:0015857	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33282	oboinowl:hasDbXref	uberon:0002446	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33318	oboinowl:hasDbXref	uberon:0001732	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33506	oboinowl:hasDbXref	uberon:0005473	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33508	oboinowl:hasDbXref	uberon:0005473	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33568	oboinowl:hasDbXref	uberon:0001204	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33763	oboinowl:hasDbXref	uberon:0000376	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33788	oboinowl:hasDbXref	uberon:0001466	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33816	oboinowl:hasDbXref	uberon:0002100	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33868	oboinowl:hasDbXref	uberon:0002412	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C33894	oboinowl:hasDbXref	uberon:0001491	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C34082	oboinowl:hasDbXref	uberon:0001555	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C34320	oboinowl:hasDbXref	uberon:0002331	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C41449	oboinowl:hasDbXref	uberon:0003691	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C43362	oboinowl:hasDbXref	uberon:0001245	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C48821	oboinowl:hasDbXref	uberon:0001708	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C52799	oboinowl:hasDbXref	uberon:0002395	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C52810	oboinowl:hasDbXref	uberon:0001322	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C52834	oboinowl:hasDbXref	uberon:0001463	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C52835	oboinowl:hasDbXref	uberon:0003622	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C52837	oboinowl:hasDbXref	uberon:0003624	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C52838	oboinowl:hasDbXref	uberon:0003625	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C53146	oboinowl:hasDbXref	uberon:0001543	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C54187	oboinowl:hasDbXref	uberon:0003679	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C54188	oboinowl:hasDbXref	uberon:0036214	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C54272	oboinowl:hasDbXref	uberon:0000341	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C62484	oboinowl:hasDbXref	uberon:0016435	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C63705	oboinowl:hasDbXref	uberon:0035162	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C64193	oboinowl:hasDbXref	uberon:0001464	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C66852	oboinowl:hasDbXref	uberon:0001629	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C69315	oboinowl:hasDbXref	uberon:0006073	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C77608	oboinowl:hasDbXref	uberon:0003697	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C77637	oboinowl:hasDbXref	uberon:0003729	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C77641	oboinowl:hasDbXref	uberon:0002509	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C77643	oboinowl:hasDbXref	uberon:0016386	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C77650	oboinowl:hasDbXref	uberon:0002520	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C81169	oboinowl:hasDbXref	uberon:0008199	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C88143	oboinowl:hasDbXref	uberon:0015880	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C89749	oboinowl:hasDbXref	uberon:0004103	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C89803	oboinowl:hasDbXref	uberon:0008200	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C89806	oboinowl:hasDbXref	uberon:0013691	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C89807	oboinowl:hasDbXref	uberon:0000403	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C97112	oboinowl:hasDbXref	uberon:0034971	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C98188	oboinowl:hasDbXref	uberon:0035204	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+ncit:C98189	oboinowl:hasDbXref	uberon:0035371	semapv:UnspecifiedMatching	NCI Thesaurus		CC-BY-4.0	0.99		
+bto:0006193	skos:exactMatch	mesh:D001016	semapv:MappingChaining	biomappings			1.0		bto:0006193 uberon:0034971 mesh:D001016
+mesh:D001016	skos:exactMatch	bto:0006193	semapv:MappingChaining	biomappings			1.0		bto:0006193 uberon:0034971 mesh:D001016
+ncit:C12467	skos:exactMatch	uberon:0001806	semapv:MappingChaining	biomappings			1.0		ncit:C12467 mesh:D005728 uberon:0001806
+uberon:0001806	skos:exactMatch	ncit:C12467	semapv:MappingChaining	biomappings			1.0		ncit:C12467 mesh:D005728 uberon:0001806
+uberon:0002120	skos:exactMatch	ncit:C34280	semapv:MappingChaining	biomappings			1.0		uberon:0002120 mesh:D060910 ncit:C34280
+ncit:C34280	skos:exactMatch	uberon:0002120	semapv:MappingChaining	biomappings			1.0		uberon:0002120 mesh:D060910 ncit:C34280
+ncit:C32409	skos:exactMatch	uberon:0002631	semapv:MappingChaining	biomappings			1.0		ncit:C32409 mesh:D065843 uberon:0002631
+uberon:0002631	skos:exactMatch	ncit:C32409	semapv:MappingChaining	biomappings			1.0		ncit:C32409 mesh:D065843 uberon:0002631
+uberon:0002623	skos:exactMatch	ncit:C32291	semapv:MappingChaining	biomappings			1.0		uberon:0002623 mesh:D065850 ncit:C32291
+ncit:C32291	skos:exactMatch	uberon:0002623	semapv:MappingChaining	biomappings			1.0		uberon:0002623 mesh:D065850 ncit:C32291
+uberon:0002316	skos:exactMatch	ncit:C33892	semapv:MappingChaining	biomappings			1.0		uberon:0002316 mesh:D066127 ncit:C33892
+ncit:C33892	skos:exactMatch	uberon:0002316	semapv:MappingChaining	biomappings			1.0		uberon:0002316 mesh:D066127 ncit:C33892
+ncit:C32695	skos:exactMatch	uberon:0002020	semapv:MappingChaining	biomappings			1.0		ncit:C32695 mesh:D066128 uberon:0002020
+uberon:0002020	skos:exactMatch	ncit:C32695	semapv:MappingChaining	biomappings			1.0		ncit:C32695 mesh:D066128 uberon:0002020
+uberon:0002236	skos:exactMatch	ncit:C32391	semapv:MappingChaining	biomappings			1.0		uberon:0002236 mesh:D066186 ncit:C32391
+ncit:C32391	skos:exactMatch	uberon:0002236	semapv:MappingChaining	biomappings			1.0		uberon:0002236 mesh:D066186 ncit:C32391
+bto:0006267	skos:exactMatch	mesh:D066280	semapv:MappingChaining	biomappings			1.0		bto:0006267 uberon:0005408 mesh:D066280
+mesh:D066280	skos:exactMatch	bto:0006267	semapv:MappingChaining	biomappings			1.0		bto:0006267 uberon:0005408 mesh:D066280
+bto:0006128	skos:exactMatch	mesh:D013133	semapv:MappingChaining	biomappings			1.0		bto:0006128 uberon:0007703 mesh:D013133
+mesh:D013133	skos:exactMatch	bto:0006128	semapv:MappingChaining	biomappings			1.0		bto:0006128 uberon:0007703 mesh:D013133

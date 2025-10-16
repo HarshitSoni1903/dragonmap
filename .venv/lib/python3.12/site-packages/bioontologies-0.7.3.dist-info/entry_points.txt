@@ -1,0 +1,2 @@
+[console_scripts]
+bioontologies = bioontologies.cli:main

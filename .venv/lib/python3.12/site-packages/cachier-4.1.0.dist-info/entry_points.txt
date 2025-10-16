@@ -1,0 +1,2 @@
+[console_scripts]
+cachier = cachier.__main__:cli

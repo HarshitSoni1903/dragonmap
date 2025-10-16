@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+
+{% import "bootstrap5/utils.html" as bs_util %}
+{% import "utils.html" as util %}
+
+{% block title %}SeMRA{% endblock %}
+
+
+{% macro count_column(counter, key, icon) -%}
+<div class="col">
+    {% set count, suffix = format_number(counter[key]) %}
+    <i class="fa fa-{{ icon }}"></i>
+    <h2 style="margin-bottom: 0">{{ count }}{{ suffix }}</h2>
+    <p class="count-text ">{{ key }}</p>
+</div>
+{% endmacro %}
+
+{% macro do_table(counter, label, is_concept=False, has_names=False, desc=None) %}
+<div class="card-body">
+    <h4>{{ label }} Summary</h4>
+    {% if desc is not none %}
+    {{ desc | safe }}
+    {% endif %}
+</div>
+<table class="table">
+    <thead>
+    <tr>
+        <th>{{ label }}</th>
+        {% if has_names %}
+        <th>Name</th>
+        {% endif %}
+        <th>Count</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for key, count in counter.most_common() %}
+    <tr>
+        <td><code>
+            {%- if is_concept -%}
+            {% if has_names %}
+            <a href="{{ url_for('.view_concept', curie=key[0]) }}">{{ key[0] }}</a>
+            {% else %}
+            FAILURE!
+            <a href="{{ url_for('.view_concept', curie=key) }}">{{ key }}</a>
+            {% endif %}
+            {%- else -%}
+            {% if has_names %}{{ key[0] }}{% else %}{{ key }}{% endif %}
+            {%- endif -%}
+        </code></td>
+        {% if has_names %}
+        <td>{{ key[1] }}</td>
+        {% endif %}
+        <td align="right">{{ "{:,}".format(count) }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endmacro %}
+
+{% block content %}
+<div class="container" style="margin-top: 50px; margin-bottom: 50px">
+    {{ bs_util.render_messages(dismissible=True, container=False) }}
+    <div class="row justify-content-md-center">
+        <div class="col-8">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-center">
+                        Semantic Reasoning Assembler
+                    </h3>
+                    <div class="row text-center stats" style="padding-top: 1em; padding-bottom: 1em;">
+                        {{ count_column(node_counter, "Concepts", "dna") }}
+                        {{ count_column(node_counter, "Equivalence Classes", "dna") }}
+                        {{ count_column(node_counter, "Mappings", "arrows-alt") }}
+                        {{ count_column(node_counter, "Evidences", "book") }}
+                        {{ count_column(node_counter, "Mapping Sets", "puzzle-piece") }}
+                    </div>
+                    <p>See the <a href="/docs">API Documentation</a>.</p>
+                    <div class="mb-3">
+                        <label for="conceptNameSearch" class="form-label">
+                        Enter a concept
+                            {% if example_concept_name %}name (e.g. {{ example_concept_name }}) or {% endif %}
+                            CURIE (e.g. {{ example_concept_curie }}) to search for a concept.
+                        </label>
+                        <div class="input-group">
+                            <input class="form-control" list="conceptOptions" id="conceptNameSearch" placeholder="Type to search...">
+                            <datalist id="conceptOptions"></datalist>
+                            <button
+                                class="btn btn-primary"
+                                type="button"
+                                onclick="
+                                    const val = document.getElementById('conceptNameSearch').value.trim();
+                                    if (val) {
+                                        window.open('/concept/' + encodeURIComponent(val), '_blank');
+                                    }
+                                ">
+                                Go to Concept
+                            </button>
+                        </div>
+                    </div>
+                    <h4>Mapping Sets</h4>
+                </div>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Version</th>
+                        <th>License</th>
+                        <th>Confidence</th>
+                        <th>Evidences</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Inferred</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td align="right">{{ "{:,}".format(evidence_type_counter["reasoned"]) }}</td>
+                    </tr>
+                    {% for mapping_set in mapping_sets %}
+                    <tr>
+                        <td class="text-break">
+                            <a href="{{ url_for('.view_mapping_set', mapping_set_id=mapping_set.curie) }}">
+                                {{ mapping_set.name }}
+                            </a>
+                        </td>
+                        <td class="text-nowrap">{{ mapping_set.version }}</td>
+                        <td class="text-break">
+                            {% if mapping_set.license %}
+                                {% if mapping_set.license.startswith('http') %}
+                                    See <a href="{{ mapping_set.license }}" target="_blank">homepage</a>
+                                {% else %}
+                                    {{ mapping_set.license }}
+                                {% endif %}
+                            {% endif %}
+                        </td>
+                        <td>{{ mapping_set.confidence }}</td>
+                        <td align="right">{{ "{:,}".format(mapping_set_counter[mapping_set.curie]) }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                {{ do_table(evidence_type_counter, "Evidence Type") }}
+                {{ do_table(predicate_counter, "Predicate", desc="What predicates appear in mappings?") }}
+                {{ do_table(justification_counter, "Mapping Justification", desc="How are mappings justified? These come
+                from the <a href='https://bioregistry.io/semapv'>Semantic Mapping Vocabulary (<code>semapv</code>)</a>.")
+                }}
+                {{ do_table(prefix_counter, "Prefix", has_names=True, desc="How many concepts have mappings for each
+                resource? This is typically less than the full number of entities in that resource.") }}
+                {{ do_table(author_counter, "Author", has_names=True, desc="Which authors contributed to mappings? This
+                is typically a small count for mapping databases constructed using ontologies or other resources with
+                low resolution mappings. SSSOM mappings, such as those from Biomappings, contain higher granular
+                provenance information such as author ORCID.") }}
+                {{ do_table(high_matches_counter, "Potential Data Issues", is_concept=True, has_names=True, desc="This
+                table shows entities from the largest connected components in the mapping graph. These typically
+                correspond to data issues. Click on an entity to explore the mapped entities and an interactive mapping
+                graphing of the primary mappings to help track down the issue mappings. The interface also includes
+                Biomappings controls so you can do local curation of negative mappings.") }}
+
+                <div class="card-body">
+                    <h4>Example Mappings</h4>
+                </div>
+                {{ util.mapping_table(example_mappings) }}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const inputField = document.getElementById('conceptNameSearch');
+      const dataList = document.getElementById('conceptOptions');
+
+      // Listen for input events on the field
+      inputField.addEventListener('input', async () => {
+        const query = inputField.value.trim();
+
+        // Only make a request if the input has some text and it's 2 characters or more
+        // This prevents unnecessary requests for very short inputs that would mach too many results
+        if (query.length >= 2) {
+          try {
+            const response = await fetch(`/autocomplete/search?prefix=${encodeURIComponent(query)}`);
+            if (!response.ok) throw new Error('Could not fetch autocomplete suggestions');
+
+            const suggestions = await response.json(); // Expecting the server to return a JSON array
+
+            // Clear the current options in the datalist
+            dataList.innerHTML = '';
+
+            // Populate the datalist with new options
+            suggestions.forEach(suggestion => {
+              // Each suggestion is a tuple of (normalized name, grounded name, curie)
+              const option = document.createElement('option');
+
+              const name = suggestion.name;
+              const curie = suggestion.prefix + ":" + suggestion.identifier;
+
+              // Set the value for the option to the curie
+              option.value = curie;
+
+              // Set the text content for the option as the matched string and
+              // the grounded name, if they exist, otherwise leave set it to the curie
+              let displayText;
+              if (name) {
+                displayText = name + " (" + curie + ")";
+              } else {
+                displayText = curie;
+              }
+              option.textContent = displayText;
+
+              // Add the option to the datalist
+              dataList.appendChild(option);
+            });
+          } catch (error) {
+            console.error('Error fetching autocomplete suggestions:', error);
+          }
+        }
+      });
+    });
+</script>
+{% endblock %}

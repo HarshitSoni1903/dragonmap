@@ -1,0 +1,12 @@
+# Core (no heavy libs to keep this scaffold lightweight)
+networkx>=3.2
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+pyyaml>=6.0
+pystow>=0.5
+semra[landscape]
+transformers
+sentence-transformers
+faiss-cpu
+owlready2

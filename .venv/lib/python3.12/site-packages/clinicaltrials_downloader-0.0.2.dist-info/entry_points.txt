@@ -1,0 +1,3 @@
+[console_scripts]
+clinicaltrials_downloader = clinicaltrials_downloader.cli:main
+

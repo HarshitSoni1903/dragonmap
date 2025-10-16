@@ -1,0 +1,2 @@
+[console_scripts]
+umls_downloader = umls_downloader.cli:main

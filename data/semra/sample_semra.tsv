@@ -1,0 +1,4 @@
+# subject	relation	object	provenance_type	hops	note
+SNOMEDCT:123	equivalent_to	FMA:456	curated	1	UMLS curated link
+SNOMEDCT:789	equivalent_to	FMA:111	transitive	2	Derived via relation composition
+SNOMEDCT:222	related_to	FMA:333	multi_hop	3	Heuristic expansion

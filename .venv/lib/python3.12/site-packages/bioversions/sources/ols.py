@@ -1,0 +1,91 @@
+"""Get versions from the OLS."""
+
+import logging
+from typing import ClassVar, cast
+
+import bioregistry
+from bioregistry.external.ols import get_ols_processing
+from bioregistry.resolve import get_name
+from class_resolver import ClassResolver
+
+from bioversions.utils import Getter, VersionType
+
+logger = logging.getLogger(__name__)
+
+ols_processing = get_ols_processing()
+
+
+def _get_version_type(bioregistry_id: str) -> VersionType | None:
+    ols_id = bioregistry.get_ols_prefix(bioregistry_id)
+    if ols_id is None:
+        raise ValueError(f"Missing OLS prefix for bioregistry:{bioregistry_id}")
+    ols_config = ols_processing.get(ols_id)
+    if ols_config is None:
+        raise ValueError(
+            f"Missing OLS configuration for bioregistry:{bioregistry_id} / ols:{ols_id}"
+        )
+
+    ols_version_type = ols_config.version_type
+    ols_version_date_format = ols_config.version_date_format
+    if ols_version_date_format:
+        return VersionType.date
+    elif ols_version_type:
+        return getattr(VersionType, ols_version_type)
+    else:
+        logger.warning("[%s] missing version type", bioregistry_id)
+        return None
+
+
+def make_ols_getter(bioregistry_id: str) -> type[Getter] | None:
+    """Make a getter from OLS."""
+    ols_id = bioregistry.get_ols_prefix(bioregistry_id)
+    if ols_id is None:
+        return None
+
+    resource = bioregistry.get_resource(bioregistry_id)
+    if resource is None:
+        logger.warning(f"Invalid bioregistry prefix: {bioregistry_id}")
+        return None
+    if resource.ols is None:
+        logger.warning("[%s] Missing information in OLS", bioregistry_id)
+        return None
+    version = resource.ols.get("version")
+    if version is None:
+        logger.debug("[%s] no OLS version", bioregistry_id)
+        return None
+
+    _brid = bioregistry_id
+    _name = get_name(_brid)
+    if _name is None:
+        return None
+    _version_type = _get_version_type(bioregistry_id)
+    if _version_type is None:
+        return None
+
+    class OlsGetter(Getter):
+        """A getter for OLS data from the Bioregistry."""
+
+        bioregistry_id: ClassVar[str] = _brid
+        name: ClassVar[str] = cast(str, _name)
+        version_type: ClassVar[str] = _version_type  # type:ignore
+
+        def get(self) -> str:
+            """Get the version from the Bioregistry."""
+            return cast(str, version)
+
+    return type(f"{_brid.title()}Getter", (OlsGetter,), locals())
+
+
+def extend_ols(version_getter_resolver: ClassResolver[Getter]) -> None:
+    """Add OLS lookup."""
+    for bioregistry_id in bioregistry.read_registry():
+        try:
+            version_getter_resolver.lookup(bioregistry_id)
+        except KeyError:
+            pass
+        else:
+            continue
+        getter = make_ols_getter(bioregistry_id)
+        if getter is None:
+            continue
+        version_getter_resolver.register(getter)

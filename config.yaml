@@ -1,0 +1,38 @@
+experiment_name: snomed_fma_v1
+
+paths:
+  gold_set: data/gold_standard/sample_gold.csv
+  # if you download a SSSOM from Zenodo, put it here:
+  semra_anatomy_sssom: data/semra/anatomy.sssom.tsv
+
+identifiers:
+  prefix_map:
+    SNOMEDCT: "http://snomed.info/id/"
+    FMA: "http://purl.org/sig/ont/fma/fma"
+    UMLS: "https://identifiers.org/umls/"
+  normalize_case: true
+  strip_version: true
+
+semra:
+  mode: sssom_file         # sssom_file | multi_landscape
+  sssom_path: data/semra/processed.sssom.tsv
+  allowed_predicates: ["skos:exactMatch","owl:equivalentTo","skos:closeMatch"]
+  min_confidence: 0.6
+  evidence_agg: "max"
+  hop_decay: 0.95
+  priority_prefixes: ["uberon","caro","mesh","ncit","umls"]
+
+fusion:
+  alpha: 0.7
+
+thresholding:
+  top_k: 1
+  prob_min: 0.6
+  tie_margin: 0.02
+
+retrieval:
+  lexical_top_k: 25
+  embed_top_k: 25
+
+evaluation:
+  primary_metrics: [precision_at_1, recall_at_1, recall_at_3, f1, accuracy]

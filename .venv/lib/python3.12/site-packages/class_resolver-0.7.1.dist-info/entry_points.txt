@@ -1,0 +1,6 @@
+[class_resolver_demo]
+add = operator:add
+expected_failure = operator:nope_this_is_not_real
+mul = operator:mul
+sub = operator:sub
+

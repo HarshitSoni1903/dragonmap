@@ -1,0 +1,3 @@
+[console_scripts]
+semra = semra.cli:main
+
