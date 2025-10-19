@@ -5,19 +5,15 @@ This project uses two open biomedical ontologies in **OWL** format:
 
 1. **Human Phenotype Ontology (HPO)**
    - **Description:** A structured vocabulary describing human phenotypic abnormalities (observable traits and clinical features).  
-   - **Link:** [http://purl.obolibrary.org/obo/hp.owl](http://purl.obolibrary.org/obo/hp.owl)  
    - **Classes:** ~31,860  
    - **Roots:** 522  
    - **Max Depth:** 17  
 
 2. **Mammalian Phenotype Ontology (MP)**
    - **Description:** A complementary ontology capturing phenotypic information in mouse and other mammalian models.  
-   - **Link:** [http://purl.obolibrary.org/obo/mp.owl](http://purl.obolibrary.org/obo/mp.owl)  
    - **Classes:** ~36,182  
    - **Roots:** 540  
    - **Max Depth:** 34  
-
----
 
 ## How to Obtain the Data
 Both ontologies are publicly available under open licenses via the **OBO Foundry**.
