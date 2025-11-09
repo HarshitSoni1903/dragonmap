@@ -1,11 +1,11 @@
-🧬 Dragon Map + CurateGPT Ontology Enrichment Pipeline
+# 🧬 Dragon Map + CurateGPT Ontology Enrichment Pipeline
 
 This guide reproduces the full end-to-end workflow used in DRAGON_MAP_DATA, from fetching OWL ontologies to exporting enriched, patched, and converted .owl files.
 
-⸻
+---
 
-🗂 Repository Layout
-
+## Repository Layout
+```
 DRAGON_MAP_DATA/
 ├─ dragon_map/               # Ontology ingestion & base CSV export
 │  ├─ pyproject.toml
@@ -16,14 +16,14 @@ DRAGON_MAP_DATA/
 │  │   └─ fill_missing.py
 │  ├─ out/                   # Shared output files
 │  └─ stagedb/
+```
 
+---
 
-⸻
+## 1️⃣ Setup Environment
 
-1️⃣ Setup Environment
-
-Install Dependencies
-
+### Install Dependencies
+```bash
 # Dragon Map
 cd DRAGON_MAP_DATA/dragon_map
 poetry install
@@ -31,22 +31,24 @@ poetry install
 # CurateGPT
 cd ../curategpt
 poetry install
+```
 
-Set Environment Variables
-
+### Set Environment Variables
+```bash
 # from DRAGON_MAP_DATA/curategpt
 export OUTDIR="$PWD/out"
 export STAGE="$PWD/stagedb"
 mkdir -p "$OUTDIR" "$STAGE"
+```
 
-Optionally add to ~/.zshrc so it’s available next session.
+Optionally add to `~/.zshrc` so it's available next session.
 
-⸻
+---
 
-2️⃣ Dragon Map — Ontology Acquisition and Export
+## 2️⃣ Dragon Map — Ontology Acquisition and Export
 
-Download Ontologies (HP & MP)
-
+### Download Ontologies (HP & MP)
+```bash
 cd ../dragon_map
 export DM_CACHE="$PWD/.cache"
 export DM_OUTDIR="../curategpt/out"
@@ -56,9 +58,10 @@ poetry run python -m dragon_map.download \
   --onto hp mp \
   --include-imports \
   --cache "$DM_CACHE"
+```
 
-Export to CSV
-
+### Export to CSV
+```bash
 poetry run python -m dragon_map.export_csv \
   --source "$DM_CACHE/hp.owl" \
   --out "$DM_OUTDIR/hp_enriched.csv" \
@@ -70,19 +73,20 @@ poetry run python -m dragon_map.export_csv \
   --out "$DM_OUTDIR/mp_enriched.csv" \
   --fields curie,label,definition,synonyms \
   --keep-imports
+```
 
-Verify
-
+### Verify
+```bash
 head ../curategpt/out/hp_enriched.csv
 head ../curategpt/out/mp_enriched.csv
+```
 
+---
 
-⸻
+## 3️⃣ CurateGPT — Missing Detection & Filling
 
-3️⃣ CurateGPT — Missing Detection & Filling
-
-Detect Missing Definitions/Synonyms
-
+### Detect Missing Definitions/Synonyms
+```bash
 cd ../curategpt
 poetry run python - <<'PY'
 import os, pandas as pd
@@ -97,14 +101,14 @@ for ont in ["hp","mp"]:
     miss.to_csv(os.path.join(outdir,f"{ont}_missing_all.csv"),index=False)
     print(f"{ont.upper()} -> enriched={len(df)} missing={len(miss)}")
 PY
+```
 
+---
 
-⸻
+### Fill Missing Values (Heuristic)
 
-Fill Missing Values (Heuristic)
-
-Your scripts/fill_missing.py already does this; minimal version:
-
+Your `scripts/fill_missing.py` already does this; minimal version:
+```bash
 poetry run python scripts/fill_missing.py \
   --input "$OUTDIR/hp_missing_all.csv" \
   --output "$OUTDIR/hp_missing_filled_all.csv"
@@ -112,17 +116,18 @@ poetry run python scripts/fill_missing.py \
 poetry run python scripts/fill_missing.py \
   --input "$OUTDIR/mp_missing_all.csv" \
   --output "$OUTDIR/mp_missing_filled_all.csv"
+```
 
-Expected results
-
+**Expected results:**
+```
 HP  definitions: 3513 → 0   synonyms: 11341 → 11053
 MP  definitions: 1333 → 0   synonyms:  9976 → 9784
+```
 
+---
 
-⸻
-
-4️⃣ Merge Fills Back into Enriched CSVs
-
+## 4️⃣ Merge Fills Back into Enriched CSVs
+```bash
 poetry run python - <<'PY'
 import os,pandas as pd
 outdir=os.environ.get("OUTDIR",os.path.join(os.getcwd(),"out"))
@@ -143,17 +148,18 @@ def patch_one(ont):
     print(f"{ont.upper()} defs {def0}->{def1} syns {syn0}->{syn1}")
 for o in["hp","mp"]: patch_one(o)
 PY
+```
 
-Results
-
+**Results:**
+```
 HP defs 3513→0  syns 11341→11053
 MP defs 1333→0  syns 9976→9784
+```
 
+---
 
-⸻
-
-5️⃣ Verify Completeness
-
+## 5️⃣ Verify Completeness
+```bash
 poetry run python - <<'PY'
 import os,pandas as pd
 outdir=os.environ.get("OUTDIR",os.path.join(os.getcwd(),"out"))
@@ -163,17 +169,18 @@ for o in["hp","mp"]:
     s=df["synonyms"].fillna("").astype(str).str.strip().eq("").sum()
     print(f"{o.upper()} rows={len(df)} defs_missing={d} syns_missing={s}")
 PY
+```
 
-Expected:
-
+**Expected:**
+```
 HP rows=31402  defs_missing=0  syns_missing=11053
 MP rows=34291  defs_missing=0  syns_missing=9784
+```
 
+---
 
-⸻
-
-6️⃣ Export Final OWL Files
-
+## 6️⃣ Export Final OWL Files
+```bash
 poetry run python - <<'PY'
 import pandas as pd, os
 out=os.environ.get("OUTDIR",os.path.join(os.getcwd(),"out"))
@@ -205,25 +212,24 @@ def csv_to_owl(ont):
     print("✅ Wrote",p)
 for o in["hp","mp"]: csv_to_owl(o)
 PY
+```
 
-Outputs:
+**Outputs:**
 
-out/hp_enriched_patched.owl
-out/mp_enriched_patched.owl
+- `out/hp_enriched_patched.owl`
+- `out/mp_enriched_patched.owl`
 
+---
 
-⸻
+## 7️⃣ Quick Reference: End-to-End Flow
 
-7️⃣ Quick Reference: End-to-End Flow
-
-Stage	Command	Output
-1. Setup	poetry install	environment ready
-2. Download OWLs	dragon_map.download	dragon_map/.cache/hp.owl, mp.owl
-3. Export CSVs	dragon_map.export_csv	out/hp_enriched.csv, mp_enriched.csv
-4. Detect missing	script above	out/*_missing_all.csv
-5. Fill missing	scripts/fill_missing.py	out/*_missing_filled_all.csv
-6. Merge	merge script	out/*_enriched_patched.csv
-7. Verify	verify script	stats summary
-8. Export OWL	csv→owl script	out/*_enriched_patched.owl
-
-
+| Stage | Command | Output |
+|-------|---------|--------|
+| 1. Setup | `poetry install` | environment ready |
+| 2. Download OWLs | `dragon_map.download` | `dragon_map/.cache/hp.owl`, `mp.owl` |
+| 3. Export CSVs | `dragon_map.export_csv` | `out/hp_enriched.csv`, `mp_enriched.csv` |
+| 4. Detect missing | script above | `out/*_missing_all.csv` |
+| 5. Fill missing | `scripts/fill_missing.py` | `out/*_missing_filled_all.csv` |
+| 6. Merge | merge script | `out/*_enriched_patched.csv` |
+| 7. Verify | verify script | stats summary |
+| 8. Export OWL | csv→owl script | `out/*_enriched_patched.owl` |
