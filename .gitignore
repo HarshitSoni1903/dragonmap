@@ -75,3 +75,8 @@ FETCH_HEAD
 Miniforge3-Linux-x86_64.sh.1
 
 *.zip
+
+finetuning/data_old/object_ids_raw.txt
+finetuning/data_old/subject_ids_raw.txt
+
+*.nfs*
