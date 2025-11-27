@@ -80,3 +80,6 @@ finetuning/data_old/object_ids_raw.txt
 finetuning/data_old/subject_ids_raw.txt
 
 *.nfs*
+
+finetuning/data_old/object_ids.txt
+finetuning/data_old/subject_ids.txt
