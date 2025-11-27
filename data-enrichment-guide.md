@@ -1,8 +1,6 @@
-# 🧬 Dragon Map + CurateGPT Ontology Enrichment Pipeline
+# Dragon Map + CurateGPT Ontology Enrichment Pipeline
 
 This guide reproduces the full end-to-end workflow used in DRAGON_MAP_DATA, from fetching OWL ontologies to exporting enriched, patched, and converted .owl files.
-
----
 
 ## Repository Layout
 ```
@@ -18,9 +16,7 @@ DRAGON_MAP_DATA/
 │  └─ stagedb/
 ```
 
----
-
-## 1️⃣ Setup Environment
+## Setup Environment
 
 ### Install Dependencies
 ```bash
@@ -43,9 +39,7 @@ mkdir -p "$OUTDIR" "$STAGE"
 
 Optionally add to `~/.zshrc` so it's available next session.
 
----
-
-## 2️⃣ Dragon Map — Ontology Acquisition and Export
+## Dragon Map — Ontology Acquisition and Export
 
 ### Download Ontologies (HP & MP)
 ```bash
@@ -81,9 +75,8 @@ head ../curategpt/out/hp_enriched.csv
 head ../curategpt/out/mp_enriched.csv
 ```
 
----
 
-## 3️⃣ CurateGPT — Missing Detection & Filling
+## CurateGPT — Missing Detection & Filling
 
 ### Detect Missing Definitions/Synonyms
 ```bash
@@ -102,8 +95,6 @@ for ont in ["hp","mp"]:
     print(f"{ont.upper()} -> enriched={len(df)} missing={len(miss)}")
 PY
 ```
-
----
 
 ### Fill Missing Values (Heuristic)
 
@@ -124,9 +115,8 @@ HP  definitions: 3513 → 0   synonyms: 11341 → 11053
 MP  definitions: 1333 → 0   synonyms:  9976 → 9784
 ```
 
----
 
-## 4️⃣ Merge Fills Back into Enriched CSVs
+## Merge Fills Back into Enriched CSVs
 ```bash
 poetry run python - <<'PY'
 import os,pandas as pd
@@ -156,9 +146,7 @@ HP defs 3513→0  syns 11341→11053
 MP defs 1333→0  syns 9976→9784
 ```
 
----
-
-## 5️⃣ Verify Completeness
+## Verify Completeness
 ```bash
 poetry run python - <<'PY'
 import os,pandas as pd
@@ -177,9 +165,7 @@ HP rows=31402  defs_missing=0  syns_missing=11053
 MP rows=34291  defs_missing=0  syns_missing=9784
 ```
 
----
-
-## 6️⃣ Export Final OWL Files
+## Export Final OWL Files
 ```bash
 poetry run python - <<'PY'
 import pandas as pd, os
@@ -209,7 +195,7 @@ def csv_to_owl(ont):
                 f.write(f'    <oboInOwl:hasExactSynonym>{s}</oboInOwl:hasExactSynonym>\n')
             f.write('  </owl:Class>\n\n')
         f.write('</rdf:RDF>\n')
-    print("✅ Wrote",p)
+    print("Wrote",p)
 for o in["hp","mp"]: csv_to_owl(o)
 PY
 ```
@@ -218,18 +204,3 @@ PY
 
 - `out/hp_enriched_patched.owl`
 - `out/mp_enriched_patched.owl`
-
----
-
-## 7️⃣ Quick Reference: End-to-End Flow
-
-| Stage | Command | Output |
-|-------|---------|--------|
-| 1. Setup | `poetry install` | environment ready |
-| 2. Download OWLs | `dragon_map.download` | `dragon_map/.cache/hp.owl`, `mp.owl` |
-| 3. Export CSVs | `dragon_map.export_csv` | `out/hp_enriched.csv`, `mp_enriched.csv` |
-| 4. Detect missing | script above | `out/*_missing_all.csv` |
-| 5. Fill missing | `scripts/fill_missing.py` | `out/*_missing_filled_all.csv` |
-| 6. Merge | merge script | `out/*_enriched_patched.csv` |
-| 7. Verify | verify script | stats summary |
-| 8. Export OWL | csv→owl script | `out/*_enriched_patched.owl` |
