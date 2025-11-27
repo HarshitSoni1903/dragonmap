@@ -68,3 +68,10 @@ FETCH_HEAD
 *.sh
 
 *.ipynb
+
+*.tsv
+*.tsv.gz
+
+Miniforge3-Linux-x86_64.sh.1
+
+*.zip
