@@ -57,7 +57,7 @@ def main():
             str(args.topk),
         ]
 
-        print("➡️ Running:", " ".join(cmd))
+        print("Running:", " ".join(cmd))
 
         try:
             subprocess.run(cmd, check=True)
