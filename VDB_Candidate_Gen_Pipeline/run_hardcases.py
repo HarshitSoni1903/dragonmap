@@ -62,7 +62,7 @@ def main():
         try:
             subprocess.run(cmd, check=True)
         except subprocess.CalledProcessError as e:
-            print(f"❌ Failed for '{label}' — continuing. Error: {e}")
+            print(f"Failed for '{label}' — continuing. Error: {e}")
 
         print("\n\n")
 
