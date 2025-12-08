@@ -31,11 +31,11 @@ def main():
     parser.add_argument("--topk", type=int, default=25)
     args = parser.parse_args()
 
-    print(f"📌 Using {len(HARD_LABELS)} hardcase labels")
-    print(f"🔧 Collection: {args.collection}")
-    print(f"🔧 Metadata: {args.metadata}")
-    print(f"🔧 K: {args.topk}")
-    print("🔧 Output dir: candidate_outputs/ (auto)\n")
+    print(f"Using {len(HARD_LABELS)} hardcase labels")
+    print(f"Collection: {args.collection}")
+    print(f"Metadata: {args.metadata}")
+    print(f"K: {args.topk}")
+    print("Output dir: candidate_outputs/ (auto)\n")
 
     for label in HARD_LABELS:
         print("=" * 80)
