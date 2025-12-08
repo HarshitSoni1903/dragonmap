@@ -3,12 +3,13 @@ experiment:
   output_dir: "experiments"
 
 model:
-  name_or_path: "models"
+  name_or_path: "cambridgeltl/SapBERT-from-PubMedBERT-fulltext"
+  local_dir: "models"
 
 data:
-  train_tsv: "data/sapbert_train.tsv"
-  val_tsv: "data/sapbert_val.tsv"
-  test_tsv: "data/sapbert_test.tsv"
+  train_csv: "data/sapbert_train.csv"
+  val_csv: "data/sapbert_val.csv"
+  test_csv: "data/sapbert_test.csv"
 
 training:
   batch_size: 256

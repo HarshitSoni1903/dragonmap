@@ -1,5 +1,5 @@
 experiment:
-  name: "semra_ms_sapbert_v1"
+  name: "semra_ms_sapbert_v4"
   output_dir: "experiments"
 
 model:
@@ -13,9 +13,9 @@ data:
 
 training:
   batch_size: 256
-  max_seq_length: 16
-  epochs: 5
-  lr: 1e-5
+  max_seq_length: 20
+  epochs: 6
+  lr: 5e-6
   weight_decay: 0.01
   eps: 1e-8
   betas: [0.9, 0.999]

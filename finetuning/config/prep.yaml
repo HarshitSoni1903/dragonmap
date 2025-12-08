@@ -1,0 +1,56 @@
+# ============================================================
+# SeMRA Dataset Preparation Configuration
+# ============================================================
+
+paths:
+  data_dir: "../data"                       # directory containing .tsv.gz files
+  db_path: "../data/semra_unified.db"       # sqlite database location
+  log_file: "../data/semra_enrichment.log"  # enrichment stdout/stderr redirect
+  header_cache: "../data/header_cache.pkl"  # cached header dictionary
+
+landscapes:
+  - anatomy
+  - cell_line
+  - disease
+  - gene
+
+tables:
+  concept_raw: "concept_raw"
+  priority_raw: "priority_raw"
+  enriched_pairs: "enriched_pairs"
+
+chunking:
+  semra_chunk_size: 20000                # number of rows processed per batch
+
+logging:
+  redirect_stdout: true
+  redirect_stderr: true
+  suppress_warnings: true
+
+semra:
+  enable_label_completion: true          # turn on SemRA label enrichment
+  allow_external_resolution_errors: true # do not stop on UMLS/pyobo errors
+
+ingestion:
+  drop_duplicates: true
+  normalize_empty_strings: true
+
+db:
+  pragmas:
+    synchronous: "OFF"
+    journal_mode: "WAL"
+    temp_store: "MEMORY"
+
+enrichment:
+  skip_existing_labels: true             # do not overwrite existing labels
+  iterative_enrichment: false            # single pass is enough
+  write_enriched_pairs: false            # export after final write-back only
+
+pipeline:
+  skip_header_loading: false             # read headers or load from cache
+  skip_db_creation: True                # create tables
+  skip_concept_ingestion: false
+  skip_priority_ingestion: false
+  skip_semra_enrichment: false           # run SemRA or skip
+  skip_writeback: false                  # write completed labels into DB
+  skip_export_pairs: false               # dump final enriched_pairs

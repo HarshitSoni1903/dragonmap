@@ -9,6 +9,7 @@ from argparse import ArgumentParser
 from torch.utils.data import Dataset, DataLoader
 from transformers import AutoTokenizer, AutoModel, get_linear_schedule_with_warmup
 from torch.optim import AdamW
+from prep_eval import run_full_evaluation
 
 
 
@@ -27,8 +28,8 @@ class PairDataset(Dataset):
 
     def __getitem__(self, idx):
         row = self.df.iloc[idx]
-        text1 = row["l_src"]
-        text2 = row["l_tgt"]
+        text1 = row["subject_label"]
+        text2 = row["object_label"]
 
         enc1 = self.tokenizer(
             text1,
@@ -112,6 +113,41 @@ def build_output_dir(cfg):
     return out_dir
 
 
+def load_or_download_model(model_name: str, model_dir: str):
+    """
+    If model_dir exists and contains a HuggingFace model (config.json),
+    load it locally.
+    Otherwise download from HuggingFace and save to model_dir.
+    Returns (model, tokenizer).
+    """
+    model_dir = os.path.expanduser(model_dir)
+    config_path = os.path.join(model_dir, "config.json")
+
+    # ----------------------------------------
+    # 1. Try to load from disk
+    # ----------------------------------------
+    if os.path.isfile(config_path):
+        print(f"[MODEL] Found local model at: {model_dir}")
+        model = AutoModel.from_pretrained(model_dir)
+        tokenizer = AutoTokenizer.from_pretrained(model_dir)
+        return model, tokenizer
+
+    # ----------------------------------------
+    # 2. Download from HF
+    # ----------------------------------------
+    print(f"[MODEL] Local model not found at {model_dir}. Downloading {model_name}...")
+    model = AutoModel.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+    os.makedirs(model_dir, exist_ok=True)
+    model.save_pretrained(model_dir)
+    tokenizer.save_pretrained(model_dir)
+
+    print(f"[MODEL] Downloaded and saved to: {model_dir}")
+    return model, tokenizer
+
+
+
 # ============================
 #  TRAINING FUNCTION
 # ============================
@@ -125,8 +161,8 @@ def train(config_path: str, resume: bool = False):
         yaml.safe_dump(cfg, f)
 
     model_name = cfg["model"]["name_or_path"]
-    train_tsv = cfg["data"]["train_tsv"]
-    val_tsv   = cfg["data"]["val_tsv"]
+    train_csv = cfg["data"]["train_csv"]
+    val_csv   = cfg["data"]["val_csv"]
 
     tcfg = cfg["training"]
     lcfg = cfg["loss"]
@@ -155,11 +191,11 @@ def train(config_path: str, resume: bool = False):
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
     # ---- Load data ----
-    train_df = pd.read_csv(train_tsv, sep="\t")
-    val_df   = pd.read_csv(val_tsv,   sep="\t")
+    train_df = pd.read_csv(train_csv)
+    val_df   = pd.read_csv(val_csv)
 
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModel.from_pretrained(model_name)
+    model_dir = cfg["model"].get("local_dir", model_name)
+    model, tokenizer = load_or_download_model(model_name, model_dir)
     model.to(device)
 
     train_dataset = PairDataset(train_df, tokenizer, max_seq_len)
@@ -323,15 +359,15 @@ def train(config_path: str, resume: bool = False):
     
     
 def evaluate_on_test(model, tokenizer, cfg, device):
-    test_tsv = cfg["data"]["test_tsv"]
-    test_df = pd.read_csv(test_tsv, sep="\t")
+    test_csv = cfg["data"]["test_csv"]
+    test_df = pd.read_csv(test_csv)
 
     model.eval()
     sims = []
 
     with torch.no_grad():
         for _, row in test_df.iterrows():
-            t1, t2 = row["l_src"], row["l_tgt"]
+            t1, t2 = row["subject_label"], row["object_label"]
 
             enc1 = tokenizer(
                 t1, max_length=cfg["training"]["max_seq_length"],
@@ -357,6 +393,55 @@ def evaluate_on_test(model, tokenizer, cfg, device):
     print(f"Median cosine similarity: {np.median(sims):.4f}")
     print(f"Min: {np.min(sims):.4f} | Max: {np.max(sims):.4f}")
     print("==========================\n")
+    run_full_evaluation(model, tokenizer, cfg, device, sims, test_df, prefix="finetuned")
+
+
+def evaluate_base_model_on_test(cfg, device):
+    """
+    Loads the *original* HF base model (without fine-tuning)
+    and computes its cosine similarity distribution on the same test set.
+    """
+
+    base_name = cfg["model"]["name_or_path"]      # e.g. "bert-base-uncased" or HF repo
+    test_csv = cfg["data"]["test_csv"]
+    test_df = pd.read_csv(test_csv)
+
+    print("\n===== Loading BASE model for comparison =====")
+    base_tokenizer = AutoTokenizer.from_pretrained(base_name)
+    base_model = AutoModel.from_pretrained(base_name).to(device)
+    base_model.eval()
+
+    sims = []
+
+    with torch.no_grad():
+        for _, row in test_df.iterrows():
+            t1, t2 = row["subject_label"], row["object_label"]
+
+            enc1 = base_tokenizer(
+                t1, max_length=cfg["training"]["max_seq_length"],
+                truncation=True, padding="max_length", return_tensors="pt"
+            ).to(device)
+
+            enc2 = base_tokenizer(
+                t2, max_length=cfg["training"]["max_seq_length"],
+                truncation=True, padding="max_length", return_tensors="pt"
+            ).to(device)
+
+            e1 = base_model(**enc1).last_hidden_state[:, 0, :]
+            e2 = base_model(**enc2).last_hidden_state[:, 0, :]
+
+            e1 = torch.nn.functional.normalize(e1, p=2, dim=1)
+            e2 = torch.nn.functional.normalize(e2, p=2, dim=1)
+
+            sim = torch.sum(e1 * e2, dim=1).item()
+            sims.append(sim)
+
+    print("\n===== Base Model Test Evaluation =====")
+    print(f"Mean cosine similarity: {np.mean(sims):.4f}")
+    print(f"Median cosine similarity: {np.median(sims):.4f}")
+    print(f"Min: {np.min(sims):.4f} | Max: {np.max(sims):.4f}")
+    print("==========================\n")
+    run_full_evaluation(base_model, base_tokenizer, cfg, device, sims, test_df, prefix="base")
 
 
 
@@ -374,3 +459,5 @@ if __name__ == "__main__":
 
     model, tokenizer, cfg, device = train(args.config, resume=args.resume)
     evaluate_on_test(model, tokenizer, cfg, device)
+    
+    evaluate_base_model_on_test(cfg, device)

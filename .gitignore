@@ -14,8 +14,6 @@ dist/
 *.log
 *.out
 *.err
-*.sbatch
-*.slurm
 overlay*/
 *.sqlite
 *.db
@@ -26,7 +24,7 @@ venv/
 env/
 dragonmap_env/
 Miniforge3-Linux-x86_64.sh
-
+finetuning/data/
 models/
 checkpoints/
 runs/
@@ -36,15 +34,13 @@ wandb/
 *.bin
 *.ckpt
 *.h5
-*.pkl
 *.npy
 *.npz
 *.safetensors
 *.tfevents.*
-tb/
-
+*.ipynb
+*.sh
 data/
-
 .ipynb_checkpoints/
 .vscode/
 .idea/
@@ -65,21 +61,11 @@ logs/
 
 FETCH_HEAD
 
-*.sh
-
-*.ipynb
-
 *.tsv
-*.tsv.gz
+*.db
 
 Miniforge3-Linux-x86_64.sh.1
 
 *.zip
 
-finetuning/data_old/object_ids_raw.txt
-finetuning/data_old/subject_ids_raw.txt
-
 *.nfs*
-
-finetuning/data_old/object_ids.txt
-finetuning/data_old/subject_ids.txt
