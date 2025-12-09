@@ -176,7 +176,7 @@ python pipeline_v3.py --data data/mp.owl --model finetuned --model_path /path/to
 python pipeline_v3.py --data data/hp.owl --model finetuned --model_path /path/to/model
 ```
 Example: 
-````bash
+```bash
 python pipeline_v3.py --data data/mp.owl --model seMRA_ms_sapbert_v1
 ```
 
@@ -185,7 +185,7 @@ python pipeline_v3.py --data data/mp.owl --model seMRA_ms_sapbert_v1
 
 ```bash
 python pipeline_v3.py --data data/enriched_mp.csv --model finetuned --model_path /path/to/model
-```
+````
 
 ---
 
@@ -232,7 +232,7 @@ python get_candidates_v5.py \
 ```
 Candidates_with_CSV
 
-````bash
+```bash
 python get_candidates_v5_csv.py \
   --label "Hypoalbuminemia" \
   --target_collection enriched_mp_sapbert \
@@ -241,7 +241,7 @@ python get_candidates_v5_csv.py \
   --topk 20 \
   --out_csv candidate_outputs/raw-random/Hypoalbuminemia__enriched_mp_sapbert__top20.csv
 
-````
+```
 
 TSV will be saved as: `candidates_<collection>_<label>.tsv`
 
